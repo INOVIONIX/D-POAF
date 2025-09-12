@@ -4,7 +4,7 @@ Welcome to the **official repository for the D-POAF Framework**.
 
 The **D-POAF Framework** is an **AI-native**, **Secure-By-Design**, and **Sovereign Framework** that provides a complete ecosystem to **reinvent software creation, supervision, and security**.
 
-📖 **[Download the official guide](GUIDE/The officiel Guide of D-POAF V1.0 By Inovionix.pdf)**
+📖 **[Download the official guide](GUIDE/guide.pdf)**
 
 ---
 
@@ -24,7 +24,7 @@ Unauthorized commercial use is strictly prohibited.
 ---
 
 ## Getting Started
-1. **Download the guide** – [here](GUIDE/The officiel Guide of D-POAF V1.0 By Inovionix.pdf).  
+1. **Download the guide** – [here](GUIDE/guide.pdf).  
 2. Study the framework’s core principles and structure.  
 3. Explore `/EXAMPLES` for templates and use cases.  
 4. For a commercial license, [contact us](mailto:contact@inovionix.com).
