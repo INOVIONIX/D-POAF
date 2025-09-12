@@ -19,7 +19,7 @@ It emphasizes **autonomy**, **resilience**, and **trust**, providing a foundatio
 - **Commercial license required** for companies, organizations, or professional use.
 
 Unauthorized commercial use is strictly prohibited.  
-[Read the full license terms here](LICENSE.md).
+[Read the full license terms here](LICENCE.md).
 
 ---
 
