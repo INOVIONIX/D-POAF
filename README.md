@@ -43,7 +43,7 @@ Unauthorized commercial use is strictly prohibited.
 ---
 
 ## Getting Started
-1. **View the full Markdown Guide** - (guide/GUIDE.md).
+1. **View the full Markdown Guide** - (GUIDE/GUIDE.md).
 2. **Download the guide** – [here](GUIDE/guide.pdf).   
 3. Study the framework’s core principles and structure.  
 4. Explore `/EXAMPLES` for templates and use cases.  
