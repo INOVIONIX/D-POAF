@@ -27,7 +27,7 @@ Authors: **Azzeddine IHSINE** & **Sara IHSINE** – INOVIONIX
 ## Introduction
 
 Software development is undergoing its **most profound transformation** in history.  
-Traditional methods such as Scrum or SAFe were revolutionary two decades ago, but they are now **limited by manual processes**, **hierarchical rigidity**, and **centralized governance**.
+Traditional methods were revolutionary two decades ago, but they are now **limited by manual processes**, **hierarchical rigidity**, and **centralized governance**.
 
 **D-POAF®** — *Decentralized Prompt Oriented Automated Framework* — was created to overcome these limitations.  
 It is the **first AI-native framework**, **secure-by-design**, and **driven by dynamic blockchain**, enabling fully traceable, verifiable, and autonomous software engineering.
