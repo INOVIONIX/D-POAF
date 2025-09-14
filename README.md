@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="B0D1g8bLaIL2wrZMXDaZbmvH3__maGI4c98VpmWTIDg" />
+
 # D-POAF Framework (Decentralized Prompt Oriented Automated Framework)
 
 Welcome to the **official repository for the D-POAF Framework**.
@@ -79,5 +81,3 @@ When referencing or sharing D-POAF, please include the following attribution:
 ---
 
 © 2025 INOVIONIX. All rights reserved.
-
-<meta name="google-site-verification" content="B0D1g8bLaIL2wrZMXDaZbmvH3__maGI4c98VpmWTIDg" />
