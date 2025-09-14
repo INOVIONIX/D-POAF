@@ -5,6 +5,7 @@ Welcome to the **official repository for the D-POAF Framework**.
 The **D-POAF Framework** is an **AI-native**, **Secure-By-Design**, and **Sovereign Framework** that provides a complete ecosystem to **reinvent software creation, supervision, and security**.
 
 📖 **[Download the official guide](GUIDE/guide.pdf)**
+📂 **[Access the Zenodo archived version](https://doi.org/10.5281/zenodo.17113025)**
 
 ---
 
@@ -63,6 +64,25 @@ D-POAF® is particularly suited for **regulated, mission-critical industries**, 
 
 ---
 
+## Citation and DOI
+
+If you use **D-POAF®** in academic work, research, or publications, please **cite it as follows**:
+
+### **APA Style**
+> Inovionix, Ihsine, A., & Ihsine, S. (2025). *D-POAF® Framework (Decentralized Prompt Oriented Automated Framework)* [Framework]. Zenodo.  
+> https://doi.org/10.5281/zenodo.17113025
+
+---
+
+### **DOI Badges**
+
+| DOI Type | Badge |
+|----------|-------|
+| **Latest version** (always points to the most recent release) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17113024.svg)](https://doi.org/10.5281/zenodo.17113024) |
+| **This version only** (Version 1.0) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17113025.svg)](https://doi.org/10.5281/zenodo.17113025) |
+
+---
+
 ## Attribution
 When referencing or sharing D-POAF, please include the following attribution:
 
@@ -72,9 +92,10 @@ When referencing or sharing D-POAF, please include the following attribution:
 ---
 
 ## Connect
-- Website: [https://www.inovionix.com](https://www.inovionix.com)  
-- LinkedIn: [https://www.linkedin.com/company/inovionix](https://www.linkedin.com/company/inovionix)  
-- Contact: [contact@inovionix.com](mailto:contact@inovionix.com)
+- **Website:** [https://www.inovionix.com](https://www.inovionix.com)  
+- **LinkedIn:** [https://www.linkedin.com/company/inovionix](https://www.linkedin.com/company/inovionix)  
+- **Zenodo DOI:** [https://doi.org/10.5281/zenodo.17113024](https://doi.org/10.5281/zenodo.17113024) 
+- **Contact:** [contact@inovionix.com](mailto:contact@inovionix.com)
 
 ---
 
