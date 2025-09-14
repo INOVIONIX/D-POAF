@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="B0D1g8bLaIL2wrZMXDaZbmvH3__maGI4c98VpmWTIDg" />
-
 # D-POAF Framework (Decentralized Prompt Oriented Automated Framework)
 
 Welcome to the **official repository for the D-POAF Framework**.
