@@ -1,3 +1,5 @@
+![D-POAF Logo](assets/logo.png)
+
 # D-POAF Framework (Decentralized Prompt Oriented Automated Framework)
 
 Welcome to the **official repository for the D-POAF Framework**.
