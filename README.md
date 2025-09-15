@@ -1,4 +1,4 @@
-![D-POAF Logo](assets/logo.png)
+![D-POAF Logo](assets/logo-d-poaf.png)
 
 # D-POAF Framework (Decentralized Prompt Oriented Automated Framework)
 
