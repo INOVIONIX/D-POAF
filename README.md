@@ -36,6 +36,30 @@ By leveraging **Generative AI**, **Dynamic Blockchain**, and **Living Governance
 
 ---
 
+## 👥 Founders of D-POAF®
+
+**D-POAF®** (Decentralized Prompt-Oriented Automated Framework) was created by two passionate innovators with strong expertise in **AI**, **blockchain**, **cybersecurity**, and **software engineering**.  
+
+### 🔹 Azzeddine Ihsine
+Research Engineer in Computer Science, specialist in **cybersecurity** and **advanced software engineering**.  
+With nearly 10 years of experience, Azzeddine has contributed to complex systems ranging from startups to multinational corporations.  
+He is the inventor of the D-POAF® core concepts, focusing on **secure-by-design architectures** and **decentralized governance models**.  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/azzeddine-ihsine-85b36986) | 📧 [Email](mailto:contact@inovionix.com)
+
+---
+
+### 🔹 Sara Ihsine
+Research Engineer in **software engineering**, with expertise in **governance**, **audit**, and **strategic transformation**.  
+Sara played a pivotal role in defining D-POAF®’s **horizontal structure** and **Living Governance model**, bridging technical innovation with organizational strategy.  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/sara-ihsine-34799748) | 📧 [Email](mailto:contact@inovionix.com)
+
+
+Together, they created D-POAF® to **redefine software engineering** through **AI-native automation**, **blockchain-based traceability**, and **living decentralized governance**.
+
+---
+
 ## License
 - **Free for educational and personal use** – universities, schools, and individual learners.  
 - **Commercial license required** for companies, organizations, or professional use.
