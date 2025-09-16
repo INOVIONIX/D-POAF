@@ -19,7 +19,8 @@ It emphasizes **autonomy**, **resilience**, and **trust**, providing a foundatio
 
 ## About D-POAF®
 
-D-POAF® is a **next-generation software engineering framework** designed to revolutionize how organizations **design, deliver, and govern** digital projects.  
+D-POAF® is a **next-generation software engineering framework** designed to revolutionize how organizations **design, deliver, and govern** digital projects. 
+ 
 By leveraging **Generative AI**, **Dynamic Blockchain**, and **Living Governance®**, it ensures **traceability**, **security**, and **verifiable value** throughout the entire lifecycle.
 
 **Mission:** To accelerate project delivery while eliminating organizational silos, human error, and centralized decision-making.
@@ -46,8 +47,6 @@ With nearly 10 years of experience, Azzeddine has contributed to complex systems
 He is the inventor of the D-POAF® core concepts, focusing on **secure-by-design architectures** and **decentralized governance models**.  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/azzeddine-ihsine-85b36986) | 📧 [Email](mailto:contact@inovionix.com)
-
----
 
 ### 🔹 Sara Ihsine
 Research Engineer in **software engineering**, with expertise in **governance**, **audit**, and **strategic transformation**.  
