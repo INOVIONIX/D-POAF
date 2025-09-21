@@ -42,9 +42,7 @@ By leveraging **Generative AI**, **Dynamic Blockchain**, and **Living Governance
 **D-POAF®** (Decentralized Prompt-Oriented Automated Framework) was created by two passionate innovators with strong expertise in **AI**, **blockchain**, **cybersecurity**, and **software engineering**.  
 
 ### 🔹 Azzeddine Ihsine
-Research Engineer in Computer Science, specialist in **cybersecurity** and **advanced software engineering**.  
-With nearly 10 years of experience, Azzeddine has contributed to complex systems ranging from startups to multinational corporations.  
-He is the inventor of the D-POAF® core concepts, focusing on **secure-by-design architectures** and **decentralized governance models**.  
+Research Engineer in Computer Science, specialist in **cybersecurity** and **advanced software engineering**. With nearly 10 years of experience, Azzeddine has contributed to complex systems ranging from startups to multinational corporations. He is the inventor of the D-POAF® core concepts, focusing on **secure-by-design architectures** and **decentralized governance models**.  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/azzeddine-ihsine-85b36986) | 📧 [Email](mailto:contact@inovionix.com)
 
