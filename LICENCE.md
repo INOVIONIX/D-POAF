@@ -85,7 +85,7 @@ Only entities officially certified by Inovionix may claim to provide "Official D
 
 **To become an official training partner or obtain certification:**  
 📧 **contact@inovionix.com**  
-🌐 **www.inovionix.com/certification**
+🌐 **www.inovionix.com**
 
 ---
 
