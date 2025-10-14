@@ -1,71 +1,173 @@
-DECENTRALIZED PROMPT ORIENTED AUTOMATED FRAMEWORK (D-POAF) License
+# D-POAF® Framework Licensing
 
-Copyright (c) 2025 INOVIONIX. All rights reserved.
+## Open Source License
 
-This license applies to the **DECENTRALIZED PROMPT ORIENTED AUTOMATED FRAMEWORK (D-POAF)** and all related documentation, templates, and materials contained in this repository.
+The **D-POAF® Framework** is licensed under the **Apache License 2.0**, making it free and open for use, modification, and distribution for both personal and commercial purposes.
 
-1. Definitions
+---
 
-"Educational Use" means use by schools, universities, teachers, students, and researchers for teaching, academic research, or self-learning without any direct or indirect commercial purpose.
+## Apache License 2.0
 
-"Personal Use" means use by an individual for self-study or private projects without generating revenue or providing services to third parties.
+**Copyright © 2025 Inovionix | Azzeddine IHSINE & Sara IHSINE**
 
-"Commercial Use" means any use by companies, organizations, or individuals for business purposes, including but not limited to:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at:
 
-Selling services or products that implement the framework.
+**http://www.apache.org/licenses/LICENSE-2.0**
 
-Using the framework internally within a company to improve commercial processes.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-Providing training or consulting to others based on this framework.
+---
 
-2. License Grant
+## What the Apache 2.0 License Allows
 
-The D-POAF Framework is licensed as follows:
+✅ **Commercial Use** – Use D-POAF® in commercial products and services  
+✅ **Modification** – Modify and adapt the framework to your needs  
+✅ **Distribution** – Share and distribute the framework freely  
+✅ **Patent Grant** – Explicit patent protection for contributors and users  
+✅ **Private Use** – Use privately without disclosure obligations  
 
-Educational Use:
-You are free to download, share, and adapt this framework free of charge for educational and academic purposes, under the condition that you provide proper attribution to the authors.
+### Requirements
 
-Personal Use:
-You may use this framework for free for personal, non-commercial purposes.
-Some advanced materials, templates, or features may require a paid Personal License.
+📋 **License and Copyright Notice** – Include the Apache 2.0 license and copyright notice in all copies or substantial portions  
+📋 **State Changes** – Document any modifications made to the original code  
+📋 **Attribution** – Maintain all attribution notices from the original work  
 
-Commercial Use:
-Any commercial or professional use of this framework requires a valid paid license obtained directly from INOVIONIX.
-Unauthorized commercial use is strictly prohibited.
+---
 
-3. Restrictions
+## Trademarks (Separate from Software License)
 
-You may not:
+**Important:** While the D-POAF® Framework code is open source under Apache 2.0, the following names and marks are **registered trademarks** or **pending registration** owned by **Inovionix**:
 
-Sell, sublicense, or distribute the framework or derivative works without a commercial license.
+- **D-POAF®**
+- **Wave®, Multiwave®, Microwave®**
+- **Workhub®, WaveRegister®, WaveChain®**
+- **PromptRegister®, FeedbackRegister®**
+- **Pipeline CP/CD®**
+- **Peacekeepers®** (Gardiens de Paix®)
+- **RAGer®, Wave Surfer®, Wave Captain®**
+- **Living Governance®, Proof of Value® (PoV®)**
 
-Use the framework in any way that competes with INOVIONIX's official services or certifications.
+### Trademark Usage Guidelines
 
-Remove copyright notices or claim ownership of the framework.
+1. **Open Source Projects**  
+   You may use the trademarks to accurately describe your use of the D-POAF® Framework (e.g., "Built with D-POAF®", "Compatible with D-POAF®").
 
-4. Attribution
+2. **Modified Versions**  
+   If you modify the framework significantly, you should clearly indicate that your version is a derivative work (e.g., "Based on D-POAF®" or "MyFramework powered by D-POAF®").
 
-When sharing or referencing this framework (in presentations, publications, or online content), you must include the following attribution:
+3. **No Endorsement**  
+   You may not use the trademarks in a way that suggests official endorsement by Inovionix without written permission.
 
-"D-POAF Framework by INOVIONIX – Free for educational use.
-Commercial use requires a license. Visit https://www.inovionix.com for more information."
+4. **No Misleading Use**  
+   Do not use the trademarks in company names, product names, or domain names without authorization.
 
-5. Warranty Disclaimer
+For specific trademark usage permissions, contact: **contact@inovionix.com**
 
-The framework is provided "AS IS", without warranty of any kind, express or implied.
-INOVIONIX is not liable for any damages or losses resulting from its use.
+---
 
-6. How to Obtain a Commercial License
+## Official Certification and Training
 
-To request a commercial license, please contact INOVIONIX through :
-Email : contact@inovionix.com
-Website : https://www.inovionix.com
+While the D-POAF® Framework is open source and free to use, **official certifications and training programs** are exclusively provided by **Inovionix** or authorized partners.
 
-7. Termination
+### Certification Programs
 
-Any breach of this license automatically terminates your rights to use the framework.
-Upon termination, you must immediately stop all use and destroy any copies in your possession.
+- **D-POAF® Certified Practitioner**
+- **D-POAF® Certified Architect**
+- **D-POAF® Certified Trainer**
 
-8. Governing Law
+Only entities officially certified by Inovionix may claim to provide "Official D-POAF® Training" or "D-POAF® Certification Programs."
 
-This license shall be governed by and construed in accordance with the laws of France, without regard to its conflict of laws principles.
+**To become an official training partner or obtain certification:**  
+📧 **contact@inovionix.com**  
+🌐 **www.inovionix.com/certification**
+
+---
+
+## Recommended Attribution
+
+While not legally required by the Apache 2.0 license, we appreciate the following attribution when using D-POAF®:
+
+```
+Powered by D-POAF® Framework
+Created by Inovionix | Azzeddine IHSINE & Sara IHSINE
+Licensed under Apache 2.0
+Learn more: www.inovionix.com
+```
+
+Or in documentation:
+
+```
+This project uses the D-POAF® Framework, an open-source AI-native 
+software engineering methodology by Inovionix.
+```
+
+---
+
+## Support and Community
+
+### Free Community Support
+- 💬 **Discord Discussions**: [discord.gg/d-poaf/discussions](https://discord.gg/hm5TQn3neJ)
+- 📖 **Documentation**: github.com/inovionix/d-poaf/docs
+- 🐛 **Issue Tracker**: github.com/inovionix/d-poaf/issues
+
+### Commercial Support
+For enterprise support, custom implementations, or consulting services:
+- 📧 **contact@inovionix.com**
+- 🌐 **www.inovionix.com**
+
+---
+
+## Patent Grant
+
+The Apache 2.0 license includes an explicit patent grant. Contributors to D-POAF® grant users a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, use, sell, and distribute the software.
+
+---
+
+## Frequently Asked Questions
+
+**Q: Can I use D-POAF® in my commercial product?**  
+A: Yes! Apache 2.0 explicitly allows commercial use.
+
+**Q: Do I need to open-source my modifications?**  
+A: No. Apache 2.0 is permissive and does not require derivative works to be open-sourced.
+
+**Q: Can I call my service "D-POAF® Consulting"?**  
+A: Trademark usage in business names requires permission. Use "MyCompany - D-POAF® Implementation Partner" instead, and contact us for partnership opportunities.
+
+**Q: Can I teach D-POAF® workshops?**  
+A: Yes, you can teach using the framework. However, only authorized partners can offer "Official D-POAF® Certification."
+
+**Q: Do I need to pay for a license?**  
+A: No! The framework is completely free under Apache 2.0. Paid services are optional (certification, enterprise support, training).
+
+---
+
+## Summary
+
+| Aspect | Status |
+|--------|--------|
+| **Framework Code** | ✅ Open Source (Apache 2.0) |
+| **Commercial Use** | ✅ Allowed |
+| **Modification** | ✅ Allowed |
+| **Distribution** | ✅ Allowed |
+| **Trademarks** | 🔒 Protected by Inovionix |
+| **Official Certification** | 🎓 Only via Inovionix or authorized partners |
+| **Community Support** | ✅ Free via GitHub |
+| **Enterprise Support** | 💼 Available (contact@inovionix.com) |
+
+---
+
+**© 2025 Inovionix | Azzeddine IHSINE & Sara IHSINE**  
+**Licensed under Apache License 2.0**  
+**All trademarks are property of their respective owners**
+
+For questions or clarifications:  
+📧 **contact@inovionix.com**  
+🌐 **www.inovionix.com**  
+💻 **github.com/inovionix/d-poaf**
