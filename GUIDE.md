@@ -173,19 +173,10 @@ Protected elements include:
 
 ## Licensing and Usage
 
-1. **Educational License (Free)**  
-   - Free for academic teaching, research, and personal learning.  
-   - Redistribution allowed for **non-commercial purposes only**.
+Open Source License
+The D-POAF® Framework is licensed under the Apache License 2.0, making it free and open for use, modification, and distribution for both personal and commercial purposes
 
-2. **Personal License (Freemium)**  
-   - Free basic version for non-commercial personal projects.  
-   - Premium components available with a paid upgrade.
-
-3. **Commercial License (Enterprise)**  
-   - Required for any **professional or commercial use**.  
-   - Includes deployment, training, consulting, and SaaS integrations.
-
-For licensing inquiries: **[contact@inovionix.com](mailto:contact@inovionix.com)**
+For more informations: **[contact@inovionix.com](mailto:contact@inovionix.com)**
 
 ---
 
@@ -193,8 +184,7 @@ For licensing inquiries: **[contact@inovionix.com](mailto:contact@inovionix.com)
 
 Any reference or redistribution **must include the following attribution**:
 
-> **"D-POAF® Framework by INOVIONIX – Free for educational use.  
-> Commercial use requires a license. Visit [www.inovionix.com](https://www.inovionix.com) for details."**
+> **"D-POAF® Framework by INOVIONIX – Open Source (Apache 2.0)".  
 
 ---
 
