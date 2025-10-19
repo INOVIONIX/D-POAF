@@ -158,7 +158,7 @@ D-POAF® is a living framework that evolves with community feedback.
 
 | Platform | Link |
 |----------|------|
-| 🌐 **Website** | [www.inovionix.com](https://www.inovionix.com) |
+| 🌐 **Website** | [www.inovionix.com](https://www.inovionix.com/d-poaf-framework) |
 | 💬 **Discord** | [Join our community](https://discord.gg/hm5TQn3neJ) |
 | 💼 **LinkedIn** | [Follow Inovionix](https://www.linkedin.com/company/inovionix) |
 | 📦 **X** | [Follow Inovionix](https://x.com/inovionix) |
