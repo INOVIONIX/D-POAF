@@ -25,7 +25,7 @@ By leveraging **Generative AI**, **Dynamic Blockchain (WaveRegister®)**, and **
 
 ## 🚀 Why Choose D-POAF®
 
-- **🤖 AI-Native:** Automatically generate deliverables — code, tests, documentation, and interfaces — guided by intelligent prompts.  
+- **🤖 AI-Native:** Automatically generate deliverables code, tests, documentation, and interfaces guided by intelligent prompts.  
 - **⛓️ Dynamic Blockchain (WaveRegister®):** Immutable cryptographic proofs for trust and compliance.  
 - **🏛️ Living Governance®:** Decentralized, adaptive governance with evolving rules recorded on-chain.  
 - **🤝 Horizontal Collaboration:** Empowered teams, free from rigid hierarchy.  
@@ -56,36 +56,24 @@ Sara played a pivotal role in defining D-POAF®'s **horizontal structure** and *
 
 ---
 
-## 📚 Documentation Structure
+## 🚦 Getting Started
 
-### Quick Glossary
+### For Newcomers
+1. **Read** the [Complete Methodological Guide](GUIDE.md) to understand core concepts
+2. **Try** the Quick Start Guide to launch your first Wave®
+3. **Join** our community for support and discussions
 
-| Term | Definition |
-|------|------------|
-| **Wave®** | Automated delivery cycle (2-8 hours) |
-| **Feature Block®** | Atomic functional work unit |
-| **Prompt Action®** | AI instruction generating deliverables |
-| **BVS®** | Business Value Score (1-10) |
-| **ERS®** | Effort & Risk Score |
-| **PVS®** | Prioritization Value Score = BVS²/ERS |
-| **PoV®** | Proof of Value - Collective validation |
-| **WaveRegister®** | Dynamic multi-project blockchain |
-| **Living Governance®** | Decentralized evolving governance |
-| **Dynamic Laws®** | Voted and blockchain-archived rules |
+### For Product Owners / Managers
+Focus on:
+- Business Value & Prioritization methods
+- Governance models and decision-making
+- Real-world use cases and implementations
 
-### Methodological Guide
-
-📘 **[Complete Guide Table of Contents](GUIDE.md)**
-
-| Part | Content | Status |
-|------|---------|--------|
-| **[Part I: Foundations](docs/guide/part-01-foundations.md)** | Introduction, Definition, 9 Principles | ✅ Available |
-| **[Part II: Organization & Governance](docs/guide/part-02-organization-governance.md)** | Roles, Artifacts, Living Governance® | ✅ Available |
-| **[Part III: Business Value](docs/guide/part-03-business-value.md)** | BVS®, ERS®, PVS®, PoV® | 🔄 In Progress |
-| **[Part IV: Delivery Cycles](docs/guide/part-04-delivery-cycles.md)** | Waves®, Phases, Ceremonies | 🔄 In Progress |
-| **[Part V: Traceability](docs/guide/part-05-traceability.md)** | Blockchain, Self-Regulation | ⏳ Coming Soon |
-| **[Part VI: Implementation](docs/guide/part-06-implementation.md)** | Quick Start, Use Cases, Migration | ⏳ Coming Soon |
-| **[Part VII: Resources](docs/guide/part-07-resources.md)** | FAQ, Glossary, Templates | ⏳ Coming Soon |
+### For Scrum Masters / Agile Coaches
+Focus on:
+- Delivery Cycles and Waves®
+- Role definitions and responsibilities
+- Migration strategies from traditional frameworks
 
 ---
 
@@ -98,27 +86,6 @@ D-POAF® is particularly suited for **regulated, mission-critical industries**:
 - **🔐 Cybersecurity** – Built-in resilience and proactive threat monitoring.  
 - **🏛️ Public Sector & Governance** – Transparent decision-making with immutable records.  
 - **🤖 AI Integration at Scale** – Leveraging generative AI for enterprise-wide transformation.
-
----
-
-## 🚦 Getting Started
-
-### For Newcomers
-1. **Read** [Part I: Foundations](docs/guide/part-01-foundations.md) to understand core concepts
-2. **Explore** [Part II: Organization](docs/guide/part-02-organization-governance.md) for roles and governance
-3. **Try** [Part VI: Quick Start Guide](docs/guide/part-06-implementation.md) to launch your first Wave®
-
-### For Product Owners / Managers
-Focus on:
-- [Part III: Business Value & Prioritization](docs/guide/part-03-business-value.md)
-- [Part II: Governance](docs/guide/part-02-organization-governance.md)
-- [Part VI: Use Cases](docs/guide/part-06-implementation.md)
-
-### For Scrum Masters / Agile Coaches
-Focus on:
-- [Part IV: Delivery Cycles](docs/guide/part-04-delivery-cycles.md)
-- [Part II: Roles](docs/guide/part-02-organization-governance.md)
-- [Migration from Scrum/Kanban](docs/guide/part-06-implementation.md#20-migration-from-scrumkanban)
 
 ---
 
@@ -143,24 +110,36 @@ If you use **D-POAF®** in academic work, research, or publications, please cite
 }
 ```
 
-### DOI Badges
-
-| DOI Type | Badge |
-|----------|-------|
-| **Latest version** (always points to most recent) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17113024.svg)](https://doi.org/10.5281/zenodo.17113024) |
-| **This version** (v2.1) | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17350252.svg)](https://doi.org/10.5281/zenodo.17350252) |
-
 ---
 
 ## ⚖️ License
 
-**Free for educational and personal use** – universities, schools, and individual learners.  
-**Commercial license required** for companies, organizations, or professional use.
+D-POAF® Framework is open source under **Apache License 2.0**.
 
-Unauthorized commercial use is strictly prohibited.
+📄 **[View full license terms](LICENSE.md)**
 
-📄 [Read the full license terms](LICENSE.md)  
-🏷️ [Trademark usage policy](TRADEMARKS.md)
+---
+
+## 📦 Repository Structure
+
+```
+dpoaf/
+├── README.md                    # This overview
+├── GUIDE.md                     # Complete methodological guide
+├── LICENSE.md                   # Apache License 2.0
+│
+├── docs/
+│   ├── guide/                   # Detailed methodology (7 parts)
+│   ├── manifesto/               # Manifesto behind D-POAF
+│   ├── reference-guide/         # Reference D-POAF guide
+│   ├── faq.md                   # Frequently Asked Questions
+│   ├── glossary.md              # Complete glossary
+│   └── legal/                   # Legal documentation
+│
+├── templates/                   # Feature Blocks®, ceremonies templates
+├── examples/                    # Use cases and practical examples
+└── assets/                      # Images, diagrams, logos
+```
 
 ---
 
@@ -182,36 +161,9 @@ D-POAF® is a living framework that evolves with community feedback.
 | 🌐 **Website** | [www.inovionix.com](https://www.inovionix.com) |
 | 💬 **Discord** | [Join our community](https://discord.gg/hm5TQn3neJ) |
 | 💼 **LinkedIn** | [Follow Inovionix](https://www.linkedin.com/company/inovionix) |
+| 📦 **X** | [Follow Inovionix](https://x.com/inovionix) |
 | 📧 **Email** | contact@inovionix.com |
 | 📂 **Zenodo** | [Official Archive](https://doi.org/10.5281/zenodo.17113024) |
-
----
-
-## 📦 Repository Structure
-
-```
-dpoaf/
-├── README.md                    # This file
-├── GUIDE.md                     # Complete guide table of contents
-├── LICENSE                      # Apache License 2.0
-│
-├── docs/
-│   ├── guide/                   # Methodological guide (7 parts)
-│   │   ├── part-01-foundations.md
-│   │   ├── part-02-organization-governance.md
-│   │   ├── part-03-business-value.md
-│   │   ├── part-04-delivery-cycles.md
-│   │   ├── part-05-traceability.md
-│   │   ├── part-06-implementation.md
-│   │   └── part-07-resources.md
-│   ├── faq.md                   # Frequently Asked Questions
-│   ├── glossary.md              # Complete glossary
-│   └── legal/                   # Legal documentation
-│
-├── templates/                   # Feature Blocks®, ceremonies templates
-├── examples/                    # Use cases and practical examples
-└── assets/                      # Images, diagrams, logos
-```
 
 ---
 
@@ -219,16 +171,15 @@ dpoaf/
 
 When referencing or sharing D-POAF®, please include:
 
-> "D-POAF® Framework by INOVIONIX.  
+> "D-POAF® Framework by INOVIONIX – Open Source (Apache 2.0)"
 
 ---
 
 ## 🔗 Quick Links
 
 - 📖 [Complete Methodological Guide](GUIDE.md)
-- 🚀 [Quick Start in 3 Waves](docs/guide/part-06-implementation.md#17-quick-start-guide)
-- 📋 [Feature Block® Template](templates/feature-block.md)
-- 💡 [Banking API Use Case](examples/banking-api-case-study/)
+- 🚀 [Quick Start Guide](GUIDE.md#quick-start-guide)
+- 💡 [Use Cases & Examples](examples/)
 - ❓ [FAQ](docs/faq.md)
 - 📚 [Complete Glossary](docs/glossary.md)
 
@@ -242,13 +193,9 @@ When referencing or sharing D-POAF®, please include:
 **Company:** Inovionix  
 **Version:** 2.1  
 **Date:** October 11, 2025
-
-D-POAF® is protected by patent, copyright, and registered trademarks.  
-The concepts, illustrations, diagrams, and methodologies are protected by intellectual property rights.
-
 **Contact:** contact@inovionix.com  
 **Website:** www.inovionix.com
 
 ---
 
-**Ready to revolutionize your software development? Start with [Part I: Foundations](docs/guide/part-01-foundations.md)** 🚀
+**Ready to revolutionize your software development? Start with the [Complete Guide](GUIDE.md)** 🚀
