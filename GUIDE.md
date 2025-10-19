@@ -19,7 +19,7 @@
 - [How to Read This Guide](#how-to-read-this-guide)
 - [Quick Glossary](#quick-glossary-key-terms)
 
-### PART I: FOUNDATIONS (15-20 pages)
+### PART I: FOUNDATIONS
 **1. Introduction: What is D-POAF®?**
    - 1.1 Context and genesis
    - 1.2 Vision and ambition
@@ -47,7 +47,7 @@
 
 ---
 
-### PART II: ORGANIZATION & GOVERNANCE (15-20 pages)
+### PART II: ORGANIZATION & GOVERNANCE
 **5. Roles and Responsibilities**
    - 5.1 RAGer® - Module extractor
    - 5.2 Wave Surfer® - Prompt architect
@@ -77,7 +77,7 @@
 
 ---
 
-### PART III: BUSINESS VALUE & PRIORITIZATION (12-15 pages)
+### PART III: BUSINESS VALUE & PRIORITIZATION
 **8. Business Value Score (BVS®)**
    - 8.1 Definition and calculation
    - 8.2 The 3 factors: Impact, Urgency, Opportunity
@@ -109,7 +109,7 @@
 
 ---
 
-### PART IV: DELIVERY CYCLES (10-12 pages)
+### PART IV: DELIVERY CYCLES
 **12. Waves® - Delivery Cycles**
    - 12.1 Standard Wave® (several hours)
    - 12.2 MicroWave® (several minutes)
@@ -135,7 +135,7 @@
 
 ---
 
-### PART V: TRACEABILITY & SELF-REGULATION (8-10 pages)
+### PART V: TRACEABILITY & SELF-REGULATION
 **15. Cryptographic Traceability (methodological view)**
    - 15.1 Blockchain principle (without technical details)
    - 15.2 Proofs and deliverable integrity
@@ -152,7 +152,7 @@
 
 ---
 
-### PART VI: PRACTICAL IMPLEMENTATION (15-20 pages)
+### PART VI: PRACTICAL IMPLEMENTATION
 **17. Quick Start Guide - Start in 3 Waves**
    - 17.1 Preparation checklist
    - 17.2 Your first Wave® in 5 steps
@@ -187,18 +187,16 @@
 
 ---
 
-### PART VII: RESOURCES & APPENDICES (8-10 pages)
-**22. Methodological FAQ (20-30 questions)**
+### PART VII: RESOURCES & APPENDICES
+**22. Methodological FAQ**
 
 **23. Complete Glossary**
 
 **24. Templates and Checklists**
 
-**25. Intellectual Property Protection**
+**25. Licenses and Terms of Use**
 
-**26. Licenses and Terms of Use**
-
-**27. Resources and Community**
+**26. Resources and Community**
 
 📄 **[Read Part VII: Resources & Appendices](docs/guide/part-07-resources.md)**
 
