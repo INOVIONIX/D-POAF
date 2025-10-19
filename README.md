@@ -147,10 +147,10 @@ dpoaf/
 
 D-POAF® is a living framework that evolves with community feedback.
 
-- 📝 [Contributing Guidelines](CONTRIBUTING.md)
-- 🔒 [Security Policy](SECURITY.md)
-- 🤝 [Code of Conduct](CODE_OF_CONDUCT.md)
-- 🏛️ [Governance Model](GOVERNANCE.md)
+- 📝 [Contributing Guidelines](CONTRIBUTING.md) (In progress)
+- 🔒 [Security Policy](SECURITY.md) (In progress)
+- 🤝 [Code of Conduct](CODE_OF_CONDUCT.md) (In progress)
+- 🏛️ [Governance Model](GOVERNANCE.md) (In progress)
 
 ---
 
@@ -179,9 +179,9 @@ When referencing or sharing D-POAF®, please include:
 
 - 📖 [Complete Methodological Guide](GUIDE.md)
 - 🚀 [Quick Start Guide](GUIDE.md#quick-start-guide)
-- 💡 [Use Cases & Examples](examples/)
-- ❓ [FAQ](docs/faq.md)
-- 📚 [Complete Glossary](docs/glossary.md)
+- 💡 [Use Cases & Examples](examples/) (In progress)
+- ❓ [FAQ](docs/faq.md) (In progress)
+- 📚 [Complete Glossary](docs/glossary.md) (In progress)
 
 ---
 
