@@ -305,7 +305,7 @@ D-POAF® trademarks and methodology are protected intellectual property.
 - 🌐 Website: [www.inovionix.com](https://www.inovionix.com)
 - 📧 Methodology Support: contact@inovionix.com
 - 💬 Implementation Community: [Join Discord](https://discord.gg/hm5TQn3neJ)
-- 📚 Training Programs: [Available courses](https://www.inovionix.com/training)
+- 📚 Training Programs: [Available courses](https://www.inovionix.com/training) (In progress)
 
 ---
 
