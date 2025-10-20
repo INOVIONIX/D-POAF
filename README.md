@@ -127,6 +127,7 @@ dpoaf/
 ├── README.md                    # This overview
 ├── GUIDE.md                     # Complete methodological guide
 ├── LICENSE.md                   # Apache License 2.0
+├── CONTRIBUTING.md              # How to contribute 
 │
 ├── docs/
 │   ├── guide/                   # Detailed methodology (7 parts)
@@ -136,7 +137,7 @@ dpoaf/
 │   ├── glossary.md              # Complete glossary
 │   └── legal/                   # Legal documentation
 │
-├── templates/                   # Feature Blocks®, ceremonies templates
+├── templates/                   # Feature Blocks, ceremonies templates
 ├── examples/                    # Use cases and practical examples
 └── assets/                      # Images, diagrams, logos
 ```
@@ -147,10 +148,9 @@ dpoaf/
 
 D-POAF® is a living framework that evolves with community feedback.
 
-- 📝 [Contributing Guidelines](CONTRIBUTING.md) (In progress)
+- 📝 [Contributing Guidelines](CONTRIBUTING.md)
 - 🔒 [Security Policy](SECURITY.md) (In progress)
 - 🤝 [Code of Conduct](CODE_OF_CONDUCT.md) (In progress)
-- 🏛️ [Governance Model](GOVERNANCE.md) (In progress)
 
 ---
 
