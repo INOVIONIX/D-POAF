@@ -316,6 +316,7 @@ Workhub-project/
 **Contains:** Wave blocks, phase documentation, PoV results  
 **Who uses:** Wave Captain, stakeholders, future reference  
 **Update frequency:** Throughout Wave lifecycle, archived permanently
+
 ---
 
 ## 🔧 Naming Conventions
@@ -428,7 +429,7 @@ USER = User Management
 - **Goal:** Continuous improvement culture
 
 ### **Phase 4: Full Wave Cycle (Month 4+)**
-- Complete Wave Instruct →  Plan → Build → →  Itegrate  Ar→ chive cycle
+- Complete Wave Instruct →  Plan → Build → Integrate → Review
 - Wave Registers for knowledge sharing
 - Cross-team learning and best practices
 - **Goal:** Mature, self-improving team practices
