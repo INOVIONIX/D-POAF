@@ -1,4 +1,4 @@
-![D-POAF Logo](assets/logo-d-poaf.png)
+![D-POAF Overview](assets/overview-d-poaf-framework-1.png)
 
 # D-POAF® Framework v2.1
 ## Decentralized Prompt Oriented Automated Framework
@@ -130,15 +130,16 @@ dpoaf/
 ├── CONTRIBUTING.md              # How to contribute 
 │
 ├── docs/
-│   ├── guide/                   # Detailed methodology (7 parts)
-│   ├── manifesto/               # Manifesto behind D-POAF
-│   ├── reference-guide/         # Reference D-POAF guide
-│   ├── faq.md                   # Frequently Asked Questions
-│   ├── glossary.md              # Complete glossary
-│   └── legal/                   # Legal documentation
+│   ├── guide/                   # Detailed methodology (7 parts .md)
+│   ├── manifesto/               # Manifesto behind D-POAF (PDF)
+│   ├── reference-guide/         # Reference D-POAF guide (PDF)
+│   └── glossary.md              # Complete glossary
 │
-├── templates/                   # Feature Blocks, ceremonies templates
-├── examples/                    # Use cases and practical examples
+├── templates/                   # Artifacts (Core), Phases and Tracking templates
+│   ├── artifacts/               # Core Work Templates
+│   ├── phases/                  # Wave Management Phases
+│   └── tracking                 # Learning & Tracking
+├── examples/                    # Use cases and practical examples (IN PROGRESS)
 └── assets/                      # Images, diagrams, logos
 ```
 
