@@ -138,7 +138,8 @@ dpoaf/
 ├── templates/                   # Artifacts (Core), Phases and Tracking templates
 │   ├── artifacts/               # Core Work Templates
 │   ├── phases/                  # Wave Management Phases
-│   └── tracking                 # Learning & Tracking
+│   ├── tracking/                # Learning & Tracking
+│   └── README.md                # Templates & Pilot Overview
 ├── examples/                    # Use cases and practical examples (IN PROGRESS)
 └── assets/                      # Images, diagrams, logos
 ```
