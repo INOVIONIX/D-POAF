@@ -183,6 +183,11 @@ Week 7-8: Complete Wave cycle
 ### 📁 Suggested Repository Structure
 
 ```
+       WaveRegister
+(Global multi-project ledger)
+            ▲
+            │  Anchors
+            │
 Workhub-project/
 ├── 📋 Project-docs/
 │   ├── README.md
@@ -252,7 +257,7 @@ Workhub-project/
 │       ├── best-practices.md
 │       └── lessons-learned.md
 │
-└── 🗄️ Wave-register/
+└── 🗄️ WaveChain/ (per project)
     ├── wave-blocks/
     │   ├── WRB-2025-PROJECT-W-001.md
     │   ├── WRB-2025-PROJECT-W-002.md
