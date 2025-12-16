@@ -291,12 +291,6 @@ D-POAF/
 │   │
 │   └── templates/                   # ✅ Ready to Use Today
 │       ├── artifacts/
-│       │   ├── wave-charter.md
-│       │   ├── feature-spec.md
-│       │   └── proof-of-delivery.md
-│       └── tracking/
-│           ├── wave-board.md
-│           └── governance-log.md
 │
 ├── examples/                        # 🔨 In active development
 │   │
