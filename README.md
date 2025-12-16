@@ -13,7 +13,7 @@
 
 **📖 Methodology: Ready Now** • **🔨 Platform: In Development** • **🤝 Contributors Wanted**
 
-[📖 Full Guide (130p)](https://d-poaf.org) • [💬 Discord](https://discord.gg/hm5TQn3neJ) • [🎥 YouTube](https://www.youtube.com/@D-POAFFramewrok) • [🐦 Twitter](https://x.com/inovionix)
+[📖 Full Guide (130p)](https://d-poaf.org/resources/) • [💬 Discord](https://discord.gg/hm5TQn3neJ) • [🎥 YouTube](https://www.youtube.com/@D-POAFFramewrok) • [🐦 Twitter](https://x.com/inovionix)
 
 </div>
 
