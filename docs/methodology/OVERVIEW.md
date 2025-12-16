@@ -184,7 +184,7 @@ methodology/
 3. Try scoring 5 features
 
 **Go deeper:**
-- [Complete methodology guide](reference-guide/guide_en_v3.0.pdf)
+- [Complete methodology guide](/docs/reference-guide/guide_en_v3.0.pdf)
 - [Community Discord](https://discord.gg/J7Mbhx8Awz)
 
 ---
