@@ -170,10 +170,10 @@ methodology/
 - Discord (for votes)
 
 **Recommended:**
-- `dpoaf-prioritization.py` (generates matrix + roadmap)
+- Generates matrix + roadmap
 - Monitoring dashboard (for Continuous Insight)
 - AI assistant (for RAGer & Wave Surefer roles)
-- 
+
 ---
 
 ## 📖 Learn More
