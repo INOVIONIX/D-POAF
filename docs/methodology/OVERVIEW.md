@@ -22,7 +22,7 @@ D-POAF has **5 ceremonies** that guide you from idea to production:
 | **2** | [Alignment Workshop](ceremonies/2-alignment-workshop.md) | Start of Wave | Score features, create roadmap 2D/3D Matrix |
 | **3** | [PoD Review](ceremonies/3-pod-review.md) | Feature complete | Validate technical & functional quality |
 | **4** | [PoV Review](ceremonies/4-pov-review.md) | After PoD | Validate business value |
-| **5** | [Continuous Insight](ceremonies/5-continuous-insight.md) | Weekly | Monitor production, fix issues |
+| **5** | [Continuous Insight PoR](ceremonies/5-continuous-insight.md) | Weekly | Monitor production, fix issues |
 
 **Flow:** 1 → 2 → Build → 3 → 4 → 5 → Repeat
 
@@ -184,7 +184,7 @@ methodology/
 3. Try scoring 5 features
 
 **Go deeper:**
-- [Complete methodology guide](../README.md)
+- [Complete methodology guide](reference-guide/guide_en_v3.0.pdf)
 - [Community Discord](https://discord.gg/J7Mbhx8Awz)
 
 ---
