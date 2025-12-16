@@ -45,13 +45,6 @@ limitations under the License.
 **Important:** While the D-POAF® Framework code is open source under Apache 2.0, the following names and marks are **registered trademarks** or **pending registration** owned by **Inovionix**:
 
 - **D-POAF®**
-- **Wave®, Multiwave®, Microwave®**
-- **Workhub®, WaveRegister®, WaveChain®**
-- **PromptRegister®, FeedbackRegister®**
-- **Pipeline CP/CD®**
-- **Peacekeepers®** (Gardiens de Paix®)
-- **RAGer®, Wave Surfer®, Wave Captain®**
-- **Living Governance®, Proof of Value® (PoV®)**
 
 ### Trademark Usage Guidelines
 
@@ -77,15 +70,15 @@ While the D-POAF® Framework is open source and free to use, **official certific
 
 ### Certification Programs
 
-- **D-POAF® Certified Practitioner**
+- **D-POAF® Certified Facilitator**
 - **D-POAF® Certified Architect**
-- **D-POAF® Certified Trainer**
+- **D-POAF® Certified Master**
 
 Only entities officially certified by Inovionix may claim to provide "Official D-POAF® Training" or "D-POAF® Certification Programs."
 
 **To become an official training partner or obtain certification:**  
 📧 **contact@inovionix.com**  
-🌐 **www.inovionix.com**
+🌐 **www.d-poaf.org**
 
 ---
 
@@ -97,7 +90,7 @@ While not legally required by the Apache 2.0 license, we appreciate the followin
 Powered by D-POAF® Framework
 Created by Inovionix | Azzeddine IHSINE & Sara IHSINE
 Licensed under Apache 2.0
-Learn more: www.inovionix.com
+Learn more: www.d-poaf.org
 ```
 
 Or in documentation:
@@ -119,7 +112,7 @@ software engineering methodology by Inovionix.
 ### Commercial Support
 For enterprise support, custom implementations, or consulting services:
 - 📧 **contact@inovionix.com**
-- 🌐 **www.inovionix.com**
+- 🌐 **www.d-poaf.org**
 
 ---
 
@@ -152,7 +145,7 @@ A: No! The framework is completely free under Apache 2.0. Paid services are opti
 
 | Aspect | Status |
 |--------|--------|
-| **Framework Code** | ✅ Open Source (Apache 2.0) |
+| **Framework** | ✅ Open Source (Apache 2.0) |
 | **Commercial Use** | ✅ Allowed |
 | **Modification** | ✅ Allowed |
 | **Distribution** | ✅ Allowed |
