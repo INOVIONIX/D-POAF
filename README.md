@@ -669,7 +669,7 @@ Once the platform is ready, you'll be able to migrate your manual processes to a
 
 ### 🚀 Ready to Build the Future?
 
-**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/hm5TQn3neJ)** • **[📖 Read the Guide](https://d-poaf.org)**
+**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/hm5TQn3neJ)** • **[📖 Read the Guide](https://d-poaf.org/resources)**
 
 <br>
 
