@@ -162,5 +162,5 @@ A: No! The framework is completely free under Apache 2.0. Paid services are opti
 
 For questions or clarifications:  
 📧 **contact@inovionix.com**  
-🌐 **www.inovionix.com**  
+🌐 **www.d-poaf.org**  
 💻 **github.com/inovionix/d-poaf**
