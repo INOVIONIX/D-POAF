@@ -1,19 +1,16 @@
-# D-POAF Framework
+# D-POAF® Framework
 
 <div align="center">
 
-![D-POAF Logo](https://img.shields.io/badge/D--POAF-v3.0-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Apache%202.0-green?style=for-the-badge)
-![Methodology](https://img.shields.io/badge/Methodology-Complete-success?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-In%20Development-orange?style=for-the-badge)
+![D-POAF Version](https://img.shields.io/badge/D--POAF-v1.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-CC%20BY%204.0-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Frozen%20Canonical-success?style=for-the-badge)
 
-**Decentralized Proof Oriented AI Framework**
+**Decentralized Proof-Oriented AI Framework**
 
-*A complete methodology + platform ecosystem for verifiable software delivery*
+*A proof-oriented, evidence-driven framework for AI-native software engineering*
 
-**📖 Methodology: Ready Now** • **🔨 Platform: In Development** • **🤝 Contributors Wanted**
-
-[📖 Full Guide (130p)](https://d-poaf.org/resources/) • [💬 Discord](https://discord.gg/hm5TQn3neJ) • [🎥 YouTube](https://www.youtube.com/@D-POAFFramewrok) • [🐦 Twitter](https://x.com/inovionix)
+[📖 Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) • [📚 Resources](https://d-poaf.org/resources) • [💬 Discord](https://discord.gg/hm5TQn3neJ) • [🐦 Twitter](https://x.com/inovionix)
 
 </div>
 
@@ -21,510 +18,184 @@
 
 ## 🌟 What is D-POAF?
 
-D-POAF is a **complete ecosystem** consisting of two parts:
+**D-POAF® (Decentralized Proof-Oriented AI Framework)** is a proof-oriented, decentralized reference framework for AI-native software engineering. It defines a structured lifecycle model and foundational principles for designing, building, operating, and evolving software in human-AI engineering environments.
 
-### ✅ The Methodology (READY NOW)
+D-POAF grounds legitimacy, governance, and accountability in **verifiable proof**, sustained through end-to-end traceability of intent, decisions, actions, artifacts, proofs, and outcomes.
 
-D-POAF is a **fully-defined software delivery methodology** that you can start using today:
+### Why D-POAF?
 
-- **Complete Framework Specification**: 130-page guide with detailed processes, roles, ceremonies, and principles
-- **Mathematical Foundations**: Formal algorithms for PoD, PoV, PoR, and governance
-- **Proven Governance Model**: Living governance with democratic decision-making
-- **Organizational Structure**: Roles, responsibilities, and collaboration patterns
-- **Delivery Process**: Waves, ceremonies, artifacts, and validation workflows
-
-**You can implement D-POAF manually right now** using the methodology described in the guide, just like teams adopted Scrum before tools like Jira existed.
-
-### 🔨 The Platform (IN DEVELOPMENT)
-
-We're building the **D-POAF Platform** - a software system that automates and enforces the methodology:
-
-- **WaveChain Blockchain**: Automated cryptographic proof recording
-- **Workhub Environment**: Digital project spaces with built-in governance
-- **AI Automation Engine**: Artifact generation from natural language prompts
-- **Proof Validation System**: Automatic PoD, PoV, PoR calculation and verification
-- **CLI & Dashboard**: Tools to interact with the platform
-
-**Think of it like this:**
-- **Agile/Scrum** = Methodology (exists since 2001)
-- **Jira/Azure DevOps** = Platform tools (came later)
-
-**D-POAF the methodology** is complete. **D-POAF the platform** is what we're building.
-
-### 📊 Quick Status Overview
-
-| Component | Status | Description |
-|-----------|--------|-------------|
-| **Methodology & Framework** | ✅ Complete | 130-page guide with all processes, roles, ceremonies |
-| **Mathematical Foundations** | ✅ Complete | PoD, PoV, PoR algorithms and proofs |
-| **Governance Model** | ✅ Complete | Living governance, democratic decision-making |
-| **Architecture Design** | ✅ Complete | WaveChain, Workhub, component blueprints |
-| **WaveChain Implementation** | 🔨 Building | Blockchain ledger for projects |
-| **Workhub Platform** | 🔨 Building | Digital project environment |
-| **AI Automation** | 📋 Planned | Artifact generation engine |
-| **CLI Tools** | 📋 Planned | Command-line interface |
-| **Web Dashboard** | 📋 Planned | Visual interface |
-
-**Legend:** ✅ Ready to use | 🔨 In active development | 📋 Planned
-
-**We're looking for contributors to build the platform!** See [How to Contribute](#-how-to-contribute) below.
-
----
-
-## 🚀 Using D-POAF Today (Methodology)
-
-You can start applying D-POAF principles to your projects **right now**, even before the platform is ready.
-
-### Manual Implementation
-
-Like early Scrum teams before Jira existed, you can implement D-POAF using:
-
-**1. Organizational Structure**
-- Form horizontal teams (no hierarchy)
-- Assign D-POAF roles: Wave Surfers, Wave Captain, RAGer, Peacekeepers, Community member (Reviewer)
-- Establish democratic decision-making processes
-
-**2. Delivery Process**
-- Replace delivery cycle with "Waves" (delivery cycles)
-- Create artifacts following D-POAF templates
-- Replace Backlogs/Roadmap with "2D/3D Matrix"
-- Use BVS and ERS estimation instead of story points
-- Implement collective voting for value decisions
-
-**3. Governance**
-- Document and vote on project "Dynamic laws"
-- Track all decisions transparently
-- Allow "Dynamic rules" to evolve based on evidence
-- Use consensus mechanisms for major decisions
-
-**4. Proof Mechanisms (Manual)**
-
-- [Check of deliverables PoD](docs/methodology/ceremonies/3-pod-review.md)
-- [Document value consensus votes PoV](docs/methodology/ceremonies/4-pov-review.md)
-- [Track reliability metrics manually PoR](docs/methodology/ceremonies/5-continuous-insight.md)
-- Create audit trails in Git/Markdown
-
-**Resources for Manual Implementation:**
-- [Complete Methodology Guide (130 pages)](https://d-poaf.org/resources)
-- [Wave Templates & Artifacts](./docs/templates)
-- [Governance Playbook](./docs/governance) In progress
-- [Community Examples](https://discord.gg/hm5TQn3neJ) (Discord #examples channel)
-
-### Hybrid Approach
-
-Combine D-POAF methodology with existing tools:
-- **GitHub** for artifact storage and version control
-- **Custom scripts** for Merkle root calculation
-- **Spreadsheets** for estimation
-- **Discord/Slack** for democratic voting
-- **Documentation platforms** for living governance rules
-
-**Early adopters welcome!** Share your implementation experience in our Discord.
-
----
-
-## 🛠️ The D-POAF Platform (In Development)
-
-## 🎯 What is D-POAF?
-
-D-POAF is a **complete ecosystem** that revolutionizes software engineering by combining **proven methodology**, **AI automation**, **blockchain traceability**, and **cryptographic proofs**.
-
-Unlike traditional Agile methodologies (Scrum, SAFe) that rely on trust and manual processes, D-POAF provides **mathematical proof** that software was delivered correctly.
-
-**The D-POAF Ecosystem includes:**
-1. **Complete Methodology** ✅ - Processes, roles, governance (ready to use)
-2. **Software Platform** 🔨 - Automation tools (in development)
-3. **Community & Certification** 🌱 - Training, support, recognition (growing)
+AI-native engineering introduces decisions and changes that cannot be justified by hierarchy, central control, or performance claims alone. In hybrid human-AI environments, trust, value, and responsibility require:
+- Decision authority to be **distributed**
+- Governance through **evidence**
+- Demonstrable through **traceable proofs** over time
 
 ```
-Traditional Agile          →  D-POAF Ecosystem
-─────────────────────────────────────────────
-Trust the process         →  Verify with cryptographic proofs
-Subjective story points   →  Objective & Measurable estimate
-Single authority (PO)     →  Democratic consensus
-Manual ceremonies         →  AI-powered automation
-Hope it works             →  Mathematical evidence
-Static tools (Jira)       →  Living, adaptive platform
+Traditional Approaches      →  D-POAF
+─────────────────────────────────────────
+Trust-based processes      →  Verifiable proof
+Subjective validation      →  Evidence-driven decisions
+Centralized authority      →  Decentralized governance
+Static frameworks          →  Living, adaptive systems
+Manual ceremonies          →  Proof-first engineering
 ```
 
 ---
 
-## ⚡ Key Concepts
+## 🎯 Core Principles
 
-### 🔐 Cryptographic Proofs
-- **PoD (Proof-of-Delivery)**: Merkle commitments proving work completion
-- **PoV (Proof-of-Value)**: Consensus-based value validation
-- **PoR (Proof-of-Reliability)**: Continuous verification with anomaly detection
+D-POAF is built on five foundational principles:
 
-### 🌊 WaveChain Architecture
-- Project-specific blockchain ledgers
-- Byzantine fault-tolerant consensus
-- Immutable audit trail for all deliverables
-- Zero-knowledge proofs for privacy
+### 1. Proof Before Authority
+A decision becomes legitimate when justified by explicit, verifiable proof. Hierarchy, automation, or performance alone does not establish legitimacy.
 
-### 🤖 AI-Native Automation
-- Generate complete artifact sets from prompts
-- Intelligent orchestration of delivery cycles
-- Automated governance rule evolution
-- Real-time adaptive planning
+### 2. Decentralized Decision-Making
+Decision authority is distributed across humans, AI, and systems, supported by explicit boundaries and escalation paths. Evidence sustains reviewability and prevents opaque concentration of control.
 
-### 🏛️ Decentralized Governance
-- No rigid hierarchy (horizontal organization)
-- Collective intelligence-driven decisions
-- Dynamic laws that evolve based on evidence
-- Participatory and collaborative structure
+### 3. Evidence-Driven Living Governance
+Governance is embedded into workflows and evolves through evidence and outcomes rather than static controls. Rules, constraints, exceptions, and decision rights are maintained as an auditable, lifecycle-wide operating system.
+
+### 4. Traceability as a First-Class Property
+Intent, decisions, actions, artifacts, proofs, and outcomes remain linkable to context and contribution (human or AI). Traceability sustains reviewability, reproducibility, and accountability across system evolution.
+
+### 5. Human Accountability Is Non-Transferable
+Even with AI autonomy, humans retain explicit responsibility for decision boundaries, escalation rules, and outcome acceptance. Autonomy never abolishes accountability.
 
 ---
 
-## 🏗️ Architecture Overview
+## 📐 Canonical Model
+
+D-POAF structures system evolution as a continuous proof-grounded cycle:
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                    WaveRegister                         │
-│         (Global Multi-Project Ledger)                   │
-└─────────────────────────────────────────────────────────┘
-                          ▲
-                          │
-        ┌─────────────────┼─────────────────┐
-        │                 │                 │
-   ┌────▼────┐       ┌────▼────┐       ┌────▼────┐
-   │ Wave    │       │ Wave    │       │ Wave    │
-   │ Chain 1 │       │ Chain 2 │       │ Chain 3 │
-   └─────────┘       └─────────┘       └─────────┘
-        │                 │                 │
-   ┌────▼────┐       ┌────▼────┐       ┌────▼────┐
-   │Workhub 1│       │Workhub 2│       │Workhub 3│
-   └─────────┘       └─────────┘       └─────────┘
+Intent → Decision → Execution → Evidence → Learning → Adaptation
 ```
 
-### Core Components
+### Lifecycle Macro-Phases
 
-- **Workhub**: Isolated, intelligent project environment
-- **WaveChain**: Project-level blockchain with cumulative Merkle roots
-- **WaveRegister**: Global ledger coordinating multiple projects
-- **PromptRegister**: Versioned prompt management layer
-- **FeedbackRegister**: Continuous optimization & traceability
-- **Wave**: Automated delivery cycle (like a sprint, but with proofs)
+**1. Instruct & Scope**  
+Translate intent into a scoped instruction grounded in context, with explicit scope boundaries, initial hypotheses, and proof expectations.
 
----
+**2. Shape & Align**  
+Refines and decomposes scope, aligns decision and investment logic, and prepares execution through prompt action design, risk/acceptance thresholds, and human↔AI delegation bounds.
 
-## 🆚 D-POAF vs Traditional Agile
+**3. Execute & Evolve**  
+Executes prompt actions to produce artifacts, validates delivery through integration, validates outcomes through review, and sustains reliability through monitoring, producing and refreshing proofs over time.
 
-| Feature | Scrum/SAFe | D-POAF |
-|---------|-----------|--------|
-| **Delivery Proof** | Subjective checklist | Cryptographic PoD |
-| **Value Validation** | Single PO decides | Democratic voting (PoV) |
-| **Estimation** | Story points (guess) | Measurable estimate |
-| **Traceability** | Manual tracking | Blockchain ledger |
-| **Governance** | Static rules | Living, adaptive laws |
-| **Automation** | Limited | Full AI orchestration |
-| **Reliability** | Hope + tests | Continuous PoR verification |
-| **Transparency** | Partial | End-to-end cryptographic |
+### Waves: The Unit of Verifiable Progress
 
-📊 [Full Comparison](./COMPARISON.md)
-**Want to help make this real?** [Join us!](https://discord.gg/J7Mbhx8Awz)
+A **Wave** is the unit of verifiable progress. A Wave traverses the three macro-phases to produce and refresh proofs (PoD/PoV/PoR). Based on evidence and operational signals, each Wave updates intent, governance, and delegation boundaries.
 
 ---
 
-## 📚 Documentation
+## 🔐 Proof Model
 
-### Design & Theory
-- **[Complete Guide V-3.0 (147 pages)](https://d-poaf.org/resources)** - Full specification
+D-POAF defines three proof families that sustain trust and accountability:
 
-### Implementation (Coming Soon)
-- Installation Guide
-- First Wave Tutorial
-- API Reference
-- CLI Documentation
+### PoD (Proof of Delivery)
+Evidence of intended behavior and technical alignment. Validates that the system behaves as specified.
 
----
+### PoV (Proof of Value)
+Evidence of outcomes and measurable impact. Validates that the delivered capability produces real value.
 
-## 📁 Repository Structure
-
-This repository is organized to support both immediate use of the D-POAF methodology and ongoing platform development.
-
-```
-D-POAF/
-│
-├── 📄 README.md                     # Project overview and quick start
-├── 📄 CONTRIBUTING.md               # Contribution guidelines
-├── 📄 COMPARISON.md                 # D-POAF vs Traditional Agile
-├── 📄 LICENSE.md                    # Apache 2.0 License
-├── 📄 ROADMAP.md                    # Development timeline
-├── 📄 FAQ.md                        # Frequently asked questions
-│
-├── assets/                          # Visual Assets
-│   ├── logo/
-│   │   └── d-poaf-logo.png          # Official D-POAF logo
-│   └── diagrams/
-│       ├── architecture/            # System architecture diagrams
-│       ├── proofs/                  # Cryptographic proof mechanisms
-│       ├── governance/              # Roles, phases, ceremonies
-│       └── simulation/              # Estimation & Monte Carlo
-│
-├── docs/                            # Complete Documentation
-│   │
-│   ├── manifesto/                   # Vision & Philosophy
-│   │   ├── decentralized-se-manifesto-v1.0.pdf
-│   │   └── symbiotic-manifesto-v1.0.pdf   
-│   │
-│   ├── methodology/                 
-│   │   ├── ceremonies/              # ✅ Ready to Use Today
-│   │   │   ├── instruct-session.md
-│   │   │   ├── alignment-workshop.md
-│   │   │   ├── pod-review.md
-│   │   │   ├── pov-review.md
-│   │   │   └── continuous-insight.md
-│   │   ├── phases/                   # 🔨 In active development
-│   │   │   ├── instruct-and-scope.md
-│   │   │   ├── shape-and-align.md
-│   │   │   └── execute-and-evolve.md
-│   │   ├── roles/                   # 🔨 In active development 
-│   │   │   ├── wave-surfer.md       # Prompt Designer
-│   │   │   ├── wave-captain.md      # Cycle coordinators
-│   │   │   ├── rager.md             # Knowledge managers
-│   │   │   └── peacekeeper.md       # Governance guardians
-│   │   └── OVERVIEW.md              # Complete methodology guide
-│   │
-│   ├── reference-guide/             # ✅ Ready to Use Today
-│   │   └── guide_en_v3.0.pdf        # Official Guides 
-│   │
-│   └── templates/                   # ✅ Ready to Use Today
-│       ├── artifacts/
-│
-├── examples/                        # 🔨 In active development
-│   │
-│   ├── manual-implementation/       # Use D-POAF Today
-│   │   ├── wave-example-1/
-│   │   │   ├── artifacts/
-│   │   │   ├── proofs/
-│   │   │   └── README.md
-│   │   └── governance-example/
-│   │       └── democratic-voting.md
-│
-└── use-cases/                       # ✅ Ready to Use Today
-    ├── business.md  
-    ├── organizational-governance.md
-    └── technical.md     
-```
-
-### 📊 Status Legend
-
-| Symbol | Meaning |
-|--------|---------|
-| ✅ | Complete and ready to use |
-| 🔨 | In active development |
-| 📋 | Planned for future release |
-| 📖 | Documentation available |
-
-## 🚀 Quick Navigation
-
-**Want to use D-POAF today?**
-→ Start with [`docs/methodology/`](docs/methodology/OVERVIEW.md)
-
-**Want to contribute to the platform?**
-→ Check [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`src/`](src/)
-
-**Looking for examples?**
-→ Explore [`examples/`](examples/)
-
-**Need help?**
-→ Join our [Discord](https://discord.gg/hm5TQn3neJ)
+### PoR (Proof of Reliability)
+Evidence of sustained quality, safety, and stability over time. Validates that behavior remains dependable as systems evolve.
 
 ---
 
-## 📈 Roadmap
+## 🏛️ Living Governance
 
-### Phase 1: Foundation (Q4 2025) 🔨 **Current Phase**
-- [ ] **Methodology & Conception**
-- Complete framework specification (v3.0)
-- 130-page guide published
-- Open source release
-- Community templates library
-- Video tutorials
+Living Governance defines and continuously updates the system's operating envelope through evidence:
 
-### Phase 2: Foundation (Q1 2026)
+- **Persistent Intent**: Hypotheses, success criteria, proof expectations
+- **Policies & Guardrails**: Constraints, exceptions (versioned and auditable)
+- **Human↔AI Decision Authority**: Modes, boundaries, escalation, outcome ownership
+- **Self-Regulation Loop**: Observe -> evaluate -> adjust -> archive, using indicators and signals
+- **Portfolio Steering**: Prioritization and adaptive roadmaps driven by evidence
 
-- [ ] **WaveChain Core**
-  - Basic blockchain implementation
-  - Merkle tree structures
-  - Block validation logic
-  
-- [ ] **Workhub MVP**
-  - Project initialization
-  - Wave creation interface
-  - Basic artifact management
-
-- [ ] **Proof-of-Delivery**
-  - Merkle root calculation
-  - Threshold signature system
-  - Validation pipeline
-
-- [ ] **CLI Tools**
-  - `dpoaf init` - Initialize Workhub
-  - `dpoaf wave create` - Create new Wave
-  - `dpoaf wave validate` - Verify proofs
-
-### Phase 3: Intelligence (Q2 2026)
-
-- [ ] **AI Automation Engine**
-  - Prompt processing
-  - Artifact generation
-  - Multi-modal output (code, docs, tests)
-
-- [ ] **Proof-of-Value System**
-  - Democratic voting mechanism
-  - Stake-weighted consensus
-  - Value aggregation
-
-- [ ] **Web Dashboard**
-  - Visual WaveChain explorer
-  - Governance interface
-  - Analytics and metrics
-
-### Phase 4: Scale (Q3 2026)
-
-- [ ] **Proof-of-Reliability**
-  - Continuous monitoring
-  - Anomaly detection
-  - Health scoring
-
-- [ ] **Multi-Project Coordination**
-  - WaveRegister implementation
-  - Cross-chain anchoring
-  - Portfolio management
-
-- [ ] **Zero-Knowledge Privacy**
-  - Private artifact encryption
-  - ZK-proof integration
-  - Selective disclosure
-
-### Phase 5: Ecosystem (Q4 2026)
-
-- [ ] Enterprise features
-- [ ] Cloud-native deployment
-- [ ] Certification program
-- [ ] Plugin ecosystem
+Governance is not an external overlay, it's a continuous, adaptive, lifecycle-wide operating layer.
 
 ---
 
-## 🤝 How to Contribute
+## 👥 Roles in D-POAF
 
-We're actively building D-POAF and **need your help**! This is an opportunity to shape the future of software delivery from the ground up.
+D-POAF defines horizontal, collaborative roles without rigid hierarchy:
 
-### 🎯 Priority Areas
-
-#### 1. **Technical Writers**
-Document everything:
-- Implementation guides
-- API documentation
-- Tutorials and examples
-- Video content
-
-**Skills:** Technical writing, teaching, communication
-
-### 🚀 Getting Started
-
-1. **Join our Discord**: [https://discord.gg/hm5TQn3neJ](https://discord.gg/hm5TQn3neJ)
-   - Introduce yourself in `#🎤introduce-yourself`
-   - Check `#📘methodology-discussion` for active work
-   - Ask questions in `#❓help-questions`
-
-2. **Read the Documentation**
-   - [Complete Guide V-3.0 (130 pages)](https://d-poaf.org/resources)
-   - [Contributing Guide](./CONTRIBUTING.md)
-
-3. **Pick an Issue**
-   - Browse [good-first-issue](https://github.com/inovionix/d-poaf/labels/good-first-issue)
-   - Check [help-wanted](https://github.com/inovionix/d-poaf/labels/help-wanted)
-   - Propose new features in [Discussions](https://github.com/inovionix/d-poaf/discussions)
-
-4. **Start Building**
-   - Fork the repository
-   - Create a feature branch
-   - Submit a Pull Request
-   - Participate in PoV consensus review!
-
-### 💬 Communication
-
-- **Discord**: Daily discussions, quick questions
-- **GitHub Issues**: Bug reports, feature requests
-- **GitHub Discussions**: Design proposals
-- **Community Calls**: Monthly video meetings (announced in Discord)
+- **Wave Surfer**: Executes tasks and contributes to delivery
+- **Wave Captain**: Coordinates delivery cycles and facilitates ceremonies
+- **RAGer**: Manages knowledge, context, and documentation
+- **Peacekeeper**: Ensures security, and integrity
+- **Community Member**: Participates in collective decisions and reviews
 
 ---
 
-## 🌟 Why Build D-POAF?
+## 🚀 Getting Started with D-POAF
 
-### The Problem
+### 1. Read the Canonical Specification
+Start with the [D-POAF® Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) to understand the foundational concepts and principles.
 
-Traditional Agile is 20+ years old. In 2025, we have:
-- ✅ Large Language Models (AI automation)
-- ✅ Blockchain (immutable traceability)
-- ✅ Advanced cryptography (verifiable proofs)
-- ✅ Distributed systems (decentralized governance)
+### 2. Explore Resources
+- **Official Guide**: Comprehensive methodology documentation
+- **Terminology**: Shared vocabulary for consistent interpretation
+- **Templates**: Artifacts, checklists, and adoption resources
+- **Examples**: Real-world implementation patterns
 
-Yet software delivery still relies on:
-- ❌ Subjective "Definition of Done"
-- ❌ Manual estimation (story points)
-- ❌ Trust-based validation
-- ❌ Single points of failure (Product Owner)
-- ❌ Static, inflexible processes
+### 3. Implement Gradually
+You can adopt D-POAF principles incrementally:
+- Start with proof-oriented thinking (PoD, PoV, PoR)
+- Structure the software lifecycle with Waves and macro-phases
+- Implement evidence-driven decision-making
+- Adopt horizontal team structure
+- Establish end-to-end traceability
+- Build living governance practices
+- Add D-POAF specific roles to your engineering activities
 
-### The Vision
-
-D-POAF brings **mathematical certainty** to software delivery:
-
-- **Proof instead of trust**: Cryptographic evidence, not checklists
-- **Automation instead of ceremonies**: AI handles repetitive work
-- **Consensus instead of authority**: Democratic decision-making
-- **Adaptation instead of rigidity**: Self-evolving processes
-
-### The Opportunity
-
-This is a **once-in-a-decade shift** in how software is built:
-- Like Git revolutionized version control
-- Like Kubernetes revolutionized deployment
-- Like Agile revolutionized project management
-
-**D-POAF can revolutionize software delivery.**
-
-And you can be part of building it from day one. 🚀
-
----
-
-## 🎓 Ecosystem Roles
-
-As D-POAF grows, these roles will emerge:
-
-- **Wave Surfer**: Prompt designer executing tasks
-- **Wave Captain**: Coordinates delivery cycles
-- **RAGer**: Manages knowledge and documentation
-- **Peacekeeper**: Ensures governance/security integrity
-- **Community Member**: Participates in collective decisions
+### 4. Join the Community
+Connect with other practitioners:
+- [Discord Community](https://discord.gg/hm5TQn3neJ)
+- [GitHub Discussions](https://github.com/inovionix/d-poaf/discussions)
+- Share your experience and learn from others
 
 ---
 
 ## 📊 Use Cases
 
-Once implemented, D-POAF will be perfect for:
+D-POAF applies wherever AI influences or contributes to software engineering lifecycle:
 
-- **Enterprise Software**: Audit-compliant delivery with cryptographic proof
-- **Open Source Projects**: Decentralized governance without hierarchy
+- **AI-Integrated Engineering**: Native support for human-AI collaboration
 - **Regulated Industries**: Verifiable compliance (finance, healthcare, aerospace)
-- **Distributed Teams**: Trustless collaboration with proof mechanisms
-- **AI-First Organizations**: Full automation with human oversight
+- **Enterprise Software**: Audit-compliant delivery with evidence trails
+- **Safety-Critical Systems**: Demonstrable reliability and accountability
+- **Large-Scale Modernization**: Governance for complex transformations
+- **Responsible AI Programs**: Transparent AI governance and oversight
 
 ---
 
-## 📘 Official Book Reference
+## 📘 Official References
 
-The **D-POAF Framework – Official Guide v3.0** is formally published as an ISBN-registered reference book and deposited with the Bibliothèque nationale de France (BnF).
+### Canonical Specification
+
+**D-POAF® Canonical Specification v1.0**  
+Status: Frozen Canonical Reference  
+Date: December 5, 2025  
+License: CC BY 4.0  
+Publisher: D-POAF Community (initiated by Inovionix)  
+Canonical reference: https://www.d-poaf.org
+
+### Official Terminology
+
+**D-POAF® Official Terminology v1.0**  
+Status: Active  
+Date: January 7, 2026  
+License: CC BY 4.0  
+Publisher: D-POAF Community (initiated by Inovionix)  
+Reference: https://d-poaf.org/resources/D-POAF-Terminology-V1.pdf
+
+### Framework Book
 
 **ISBN:** 979-10-415-8736-0  
 **Legal deposit:** Bibliothèque nationale de France (BnF), December 2025  
 **Publisher:** Inovionix  
-**License:** Apache License, Version 2.0  
+**Authors:** Azzeddine Ihsine & Sara Ihsine
 
 ---
 
@@ -534,7 +205,7 @@ The **D-POAF Framework – Official Guide v3.0** is formally published as an ISB
 
 ```text
 Ihsine, A., & Ihsine, S. (2025).
-D-POAF Framework: Decentralized Proof Oriented AI Framework.
+D-POAF Framework: Decentralized Proof-Oriented AI Framework.
 Inovionix.
 https://www.d-poaf.org
 ISBN 979-10-415-8736-0
@@ -542,60 +213,129 @@ ISBN 979-10-415-8736-0
 
 ### BibTeX
 
-```
+```bibtex
 @book{Ihsine2025DPOAF,
-  title     = {D-POAF Framework: Decentralized Proof Oriented AI Framework},
+  title     = {D-POAF Framework: Decentralized Proof-Oriented AI Framework},
   author    = {Ihsine, Azzeddine and Ihsine, Sara},
   year      = {2025},
   publisher = {Inovionix},
   isbn      = {979-10-415-8736-0},
   url       = {https://www.d-poaf.org},
-  note      = {Official Guide v3.0}
+  note      = {Canonical Specification v1.0}
 }
 ```
+
 ### IEEE
 
-```
+```text
 A. Ihsine and S. Ihsine,
-"D-POAF Framework: Decentralized Proof Oriented AI Framework,"
+"D-POAF Framework: Decentralized Proof-Oriented AI Framework,"
 Inovionix, 2025.
 ISBN: 979-10-415-8736-0.
 [Online]. Available: https://www.d-poaf.org
 ```
+
+---
+
+## 🆚 D-POAF vs Traditional Frameworks
+
+| Aspect | Traditional Agile | D-POAF |
+|--------|------------------|--------|
+| **Legitimacy** | Trust & authority | Verifiable proof |
+| **Decisions** | Centralized (PO, SM) | Decentralized & evidence-driven |
+| **Governance** | Static rules | Living, adaptive system |
+| **Validation** | Subjective acceptance | Proof-based (PoD/PoV/PoR) |
+| **Traceability** | Limited to deliverables | End-to-end (intent → outcomes) |
+| **AI Integration** | Afterthought | Native, first-class |
+| **Accountability** | Hierarchical | Distributed execution, humans remain accountable |
+
+---
+
+## ❓ FAQ
+
+### Is D-POAF a replacement for Agile/Scrum/SAFe?
+No. D-POAF is a complementary framework that can work alongside existing methodologies. It provides proof-oriented thinking, decentralized governance, and AI-native practices that enhance traditional approaches.
+
+### Can I use D-POAF for non-AI projects?
+Yes! While D-POAF is designed for AI-native engineering, its principles of proof, evidence, and governance apply to any software project where trust and accountability matter.
+
+### What's the learning curve?
+D-POAF introduces new concepts (Waves, Proofs, Living Governance), but teams familiar with Agile will find many patterns recognizable. Start with the core principles and adopt incrementally.
+
+### Is this only for large organizations?
+No. D-POAF applies to any team size. Whether you're working solo, in a small team, a growing company, or a large enterprise, you can adopt the proof-oriented principles that make sense for your context and scale them as your organization evolves.
+
+### Where can I learn more?
+- [Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) - Foundational concepts
+- [Official Resources](https://d-poaf.org/resources) - Comprehensive guides
+- [Discord Community](https://discord.gg/hm5TQn3neJ) - Connect with practitioners
+
+---
+
+## 🤝 How to Contribute
+
+D-POAF is a community-driven framework. We welcome contributions in several forms:
+
+### Framework Development
+- **Propose improvements** via GitHub Issues
+- **Submit RFCs** for significant changes via GitHub Discussions
+- **Share implementation experiences** in Discord
+- **Contribute templates and examples**
+
+### Community Building
+- **Answer questions** in Discord
+- **Write tutorials and guides**
+- **Share case studies** and adoption stories
+- **Organize meetups** or study groups
+
+### Academic Research
+- **Publish papers** using D-POAF
+- **Conduct empirical studies** on adoption
+- **Develop theoretical extensions**
+- **Cite and reference** the framework
+
+All contributions follow D-POAF's own governance principles: evidence-driven, community-reviewed, and transparently documented.
+
 ---
 
 ## 📜 License
 
-D-POAF Framework is licensed under **Apache License 2.0**.
+This repository contains different types of content under appropriate licenses:
+
+### Conceptual & Reference Documentation
+- **D-POAF® Canonical Specification** (v1.0): CC BY 4.0
+- **Framework Documentation**: CC BY 4.0
+- **Terminology & Glossary**: CC BY 4.0
+
+### Implementation & Practical Guides  
+- **D-POAF® Operating Guide** (v3.0): Apache License 2.0
+- **Templates, Tools & Examples**: Apache License 2.0
+
+### Trademark
+- **D-POAF® Trademark**: Registered trademark of Inovionix
+
+**Why two licenses?**
+- **CC BY 4.0** for conceptual/specification material
+- **Apache 2.0** for practical implementation guides and tools
 
 **Copyright © 2025 Inovionix - Azzeddine IHSINE & Sara IHSINE**
 
 ### What You Can Do
-✅ Commercial use  
-✅ Modification  
-✅ Distribution  
-✅ Private use  
-✅ Patent grant  
+✅ Use D-POAF in your projects (personal or commercial)  
+✅ Modify and adapt to your needs  
+✅ Distribute and share  
+✅ Teach and train others  
+✅ Publish derivative works (with attribution)
 
-See [LICENSE](LICENSE) for full details.
-
----
-
-## 🏆 Recognition & Certification
-
-Contributors will be eligible for:
-- **Official D-POAF Certifications** (when program launches)
-- **Governance Participation** (active contributors help steer the project)
-- **Early Adopter Benefits** (special recognition, roles, access)
-- **Co-Creation Credit** (acknowledged in documentation and materials)
+See [LICENSE-CC-BY](LICENSE-CC-BY) and [LICENSE-APACHE](LICENSE-APACHE) for full details.
 
 ---
 
 ## 🌐 Community & Support
 
 - **Website**: [https://d-poaf.org](https://d-poaf.org)
-- **Discord**: [https://discord.gg/hm5TQn3neJ](https://discord.gg/hm5TQn3neJ) ⭐ **Join here!**
-- **GitHub Issues**: [Report bugs / Request features](https://github.com/inovionix/d-poaf/issues)
+- **Discord**: [https://discord.gg/hm5TQn3neJ](https://discord.gg/hm5TQn3neJ)
+- **GitHub Issues**: [Report issues / Request features](https://github.com/inovionix/d-poaf/issues)
 - **GitHub Discussions**: [Design proposals / RFCs](https://github.com/inovionix/d-poaf/discussions)
 - **YouTube**: [@D-POAFFramework](https://www.youtube.com/@D-POAFFramewrok)
 - **Twitter**: [@inovionix](https://x.com/inovionix)
@@ -605,76 +345,41 @@ Contributors will be eligible for:
 
 ## 🙏 Acknowledgments
 
-D-POAF was designed by:
-- **Azzeddine Ihsine** - Research Engineer (Cybersecurity & AI Automation)
+D-POAF was created by:
+- **Azzeddine Ihsine** - Research Engineer (Cybersecurity & AI)
 - **Sara Ihsine** - Research Engineer (Governance & Strategy)
 
-After nearly a decade each in software engineering, AI, blockchain, and organizational design, we're building D-POAF to fundamentally improve how software is delivered.
+With nearly a decade of experience each in software engineering, AI, and organizational design, we built D-POAF to address the fundamental challenges of AI-native software delivery.
 
-**But we can't do it alone.** This is a community effort, and we need passionate builders like you.
+This is a community effort, and we're grateful to all contributors who help shape the future of software engineering.
 
 ---
 
 ## 💭 Philosophy
 
-> "We are no longer limiting ourselves to software design alone...  
-> We are evolving organizational structures to make them more intelligent,  
-> decentralized, dynamic, and living systems."
+> **"Keep it proof-first."**  
+> *In D-POAF, trust is grounded in verifiable proof, not authority.*
 
-D-POAF is more than a framework. It's a movement toward:
+D-POAF represents a fundamental shift in how we think about software delivery:
 - **Verifiable delivery** over trust-based processes
 - **Collective intelligence** over individual authority
-- **Mathematical proof** over subjective judgment
+- **Evidence-driven decisions** over subjective judgment
 - **Living systems** over rigid methodologies
+- **Human-AI collaboration** over human-only or AI-only approaches
 
----
-
-## ❓ FAQ
-
-### Q: Can I use D-POAF now or do I have to wait for the platform?
-**A:** You can use **D-POAF the methodology** right now! The 147-page guide provides everything you need to implement it manually in your organization. The platform will automate what you can currently do manually (like how Jira automates Scrum, but Scrum existed before Jira).
-
-### Q: What's the difference between the methodology and the platform?
-**A:** 
-- **Methodology** = The processes, roles, governance, and principles (COMPLETE ✅)
-- **Platform** = Software that automates and enforces the methodology (IN DEVELOPMENT 🔨)
-
-Think: Scrum (methodology) vs Jira (platform tool).
-
-### Q: When will the platform be ready?
-**A:** We're targeting Q2 2026 for an MVP with basic WaveChain and Workhub functionality. Full feature set by end of 2026. Timeline depends on community contributions!
-
-### Q: Can I use parts of D-POAF with my existing Agile process?
-**A:** Absolutely! You can adopt D-POAF principles incrementally:
-- Use BVS & ERS estimation instead of story points
-- Implement democratic value voting
-- Adopt horizontal team structure
-- Start creating proofs of deliverables
-- Start creating proofs of values
-
-Once the platform is ready, you'll be able to migrate your manual processes to automated ones.
-
-### Q: Is this only for large projects?
-**A:** No! The D-POAF methodology scales from solo developers to enterprise portfolios. Start with the principles that make sense for your context.
-
-### Q: What if I'm not a blockchain expert?
-**A:** To **use the methodology**, you don't need blockchain expertise, it's about processes and governance. Join Discord and we'll help you find a good fit.
-
-### Q: Why open source?
-**A:** We believe the future of software delivery should be transparent, collaborative, and accessible to everyone. Plus, collective intelligence builds better systems which is literally what D-POAF is about!
+We're not just building a framework. We're building a movement toward more trustworthy, accountable, and intelligent software engineering.
 
 ---
 
 <div align="center">
 
-### 🚀 Ready to Build the Future?
+### 🚀 Ready to Start?
 
-**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/hm5TQn3neJ)** • **[📖 Read the Guide](https://d-poaf.org/resources)**
+**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/hm5TQn3neJ)** • **[📖 Read the Specification](https://d-poaf.org/canonical)**
 
 <br>
 
-**We're not just building a framework.**  
-**We're building a movement.**
+**Building trustworthy AI-native software, one proof at a time.**
 
 <br>
 
