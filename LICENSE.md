@@ -1,17 +1,74 @@
 # D-POAF® Framework Licensing
 
-## Open Source License
-
-The **D-POAF® Framework** is licensed under the **Apache License 2.0**, making it free and open for use, modification, and distribution for both personal and commercial purposes.
+This repository contains different types of content under appropriate licenses.
 
 ---
 
-## Apache License 2.0
+## 📋 License Overview
 
-**Copyright © 2025 Inovionix | Azzeddine IHSINE & Sara IHSINE**
+| Content Type | License | Rationale |
+|-------------|---------|-----------|
+| **Canonical Specification** | CC BY 4.0 | Conceptual reference material |
+| **Framework Documentation** | CC BY 4.0 | Conceptual and reference content |
+| **Official Terminology** | CC BY 4.0 | Shared vocabulary and definitions |
+| **Operating Guide** | Apache 2.0 | Practical implementation guide |
+| **Templates & Tools** | Apache 2.0 | Practical resources and examples |
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
+---
+
+## 📖 CC BY 4.0 (Conceptual & Reference Documentation)
+
+**Applies to:**
+- D-POAF® Canonical Specification
+- Framework Documentation
+- Official Terminology & Glossary
+
+**Copyright © 2025 Inovionix**
+
+This work is licensed under the Creative Commons Attribution 4.0 International License.
+
+### What You Can Do
+
+✅ **Share:** Copy and redistribute the material in any medium or format  
+✅ **Adapt:** Remix, transform, and build upon the material for any purpose, even commercially  
+
+### Under the Following Terms
+
+📋 **Attribution:** You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**Full license text:** https://creativecommons.org/licenses/by/4.0/legalcode
+
+### How to Attribute
+
+When using D-POAF® documentation, please attribute as follows:
+
+```text
+D-POAF® Framework by Azzeddine Ihsine & Sara Ihsine (Inovionix)
+Licensed under CC BY 4.0
+Available at: https://www.d-poaf.org
+```
+
+Or in citations:
+
+```text
+Ihsine, A., & Ihsine, S. (2025). D-POAF Framework: Decentralized 
+Proof-Oriented AI Framework. Inovionix. https://www.d-poaf.org 
+Licensed under CC BY 4.0.
+```
+
+---
+
+## 🔧 Apache License 2.0 (Implementation Guides & Tools)
+
+**Applies to:**
+- D-POAF® Operating Guide
+- Templates, Kits & Tools
+- Implementations
+
+**Copyright © 2025 Inovionix**
+
+Licensed under the Apache License, Version 2.0 (the "License")
+you may not use these files except in compliance with the License.
 You may obtain a copy of the License at:
 
 **http://www.apache.org/licenses/LICENSE-2.0**
@@ -22,143 +79,158 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
----
+### What the Apache 2.0 License Allows
 
-## What the Apache 2.0 License Allows
-
-✅ **Commercial Use** – Use D-POAF® in commercial products and services  
-✅ **Modification** – Modify and adapt the framework to your needs  
-✅ **Distribution** – Share and distribute the framework freely  
-✅ **Patent Grant** – Explicit patent protection for contributors and users  
-✅ **Private Use** – Use privately without disclosure obligations  
+✅ **Commercial Use:** Use in commercial products and services  
+✅ **Modification:** Modify and adapt to your needs  
+✅ **Distribution:** Share and distribute freely  
+✅ **Patent Grant:** Explicit patent protection for contributors and users  
+✅ **Private Use:** Use privately without disclosure obligations  
 
 ### Requirements
 
-📋 **License and Copyright Notice** – Include the Apache 2.0 license and copyright notice in all copies or substantial portions  
-📋 **State Changes** – Document any modifications made to the original code  
-📋 **Attribution** – Maintain all attribution notices from the original work  
+📋 **License Notice:** Include the Apache 2.0 license in all copies or substantial portions  
+📋 **State Changes:** Document modifications made to the original work  
+📋 **Copyright Notice:** Maintain copyright and attribution notices  
+
+**Full license text:** http://www.apache.org/licenses/LICENSE-2.0
 
 ---
 
-## Trademarks (Separate from Software License)
+## ™️ Trademarks (Separate from Content Licenses)
 
-**Important:** While the D-POAF® Framework code is open source under Apache 2.0, the following names and marks are **registered trademarks** or **pending registration** owned by **Inovionix**:
+**Important:** While the D-POAF® Framework content is open under CC BY 4.0 and Apache 2.0, the following marks are **registered trademarks** owned by **Inovionix**:
 
 - **D-POAF®**
 
 ### Trademark Usage Guidelines
 
-1. **Open Source Projects**  
-   You may use the trademarks to accurately describe your use of the D-POAF® Framework (e.g., "Built with D-POAF®", "Compatible with D-POAF®").
+**✅ Permitted Uses:**
+- Reference the framework: "Built with D-POAF®", "Compatible with D-POAF®"
+- Educational and academic use with proper attribution
+- Community projects and contributions
 
-2. **Modified Versions**  
-   If you modify the framework significantly, you should clearly indicate that your version is a derivative work (e.g., "Based on D-POAF®" or "MyFramework powered by D-POAF®").
+**⚠️ Requires Permission:**
+- Use in company names, product names, or domain names
+- Implying official endorsement by Inovionix
+- Offering commercial services using the trademark
 
-3. **No Endorsement**  
-   You may not use the trademarks in a way that suggests official endorsement by Inovionix without written permission.
+**❌ Not Permitted:**
+- Misleading use suggesting official status
+- Modified versions claiming to be "D-POAF®" without clear indication of modification
 
-4. **No Misleading Use**  
-   Do not use the trademarks in company names, product names, or domain names without authorization.
-
-For specific trademark usage permissions, contact: **contact@inovionix.com**
-
----
-
-## Official Certification and Training
-
-While the D-POAF® Framework is open source and free to use, **official certifications and training programs** are exclusively provided by **Inovionix** or authorized partners.
-
-### Certification Programs
-
-- **D-POAF® Certified Facilitator**
-- **D-POAF® Certified Architect**
-- **D-POAF® Certified Master**
-
-Only entities officially certified by Inovionix may claim to provide "Official D-POAF® Training" or "D-POAF® Certification Programs."
-
-**To become an official training partner or obtain certification:**  
-📧 **contact@inovionix.com**  
-🌐 **www.d-poaf.org**
+For trademark usage permissions, contact: **contact@inovionix.com**
 
 ---
 
-## Recommended Attribution
+## 🤝 Derivative Works & Canonical Consistency
 
-While not legally required by the Apache 2.0 license, we appreciate the following attribution when using D-POAF®:
+### For CC BY 4.0 Content (Documentation)
 
+When creating derivative works of the Canonical Specification, Terminology, or Documentation:
+
+✅ You may adapt and build upon the material  
+✅ You must provide attribution  
+✅ Indicate if changes were made  
+⚠️ **Important:** Derivative publications should remain consistent with Canonical meanings to preserve interoperability
+
+### For Apache 2.0 Content (Tools & Guides)
+
+When modifying the Operating Guide, Templates, or Tools:
+
+✅ You may modify freely for your needs  
+✅ Document what you changed  
+✅ Maintain license and copyright notices  
+✅ You may keep modifications private (no copyleft requirement)
+
+---
+
+## 📚 Recommended Attribution
+
+While legally sufficient attribution is required under both licenses, we appreciate the following when using D-POAF®:
+
+**For Projects:**
 ```
-Powered by D-POAF® Framework
+This project uses the D-POAF® Framework
 Created by Inovionix | Azzeddine IHSINE & Sara IHSINE
-Licensed under Apache 2.0
 Learn more: www.d-poaf.org
 ```
 
-Or in documentation:
+**For Documentation:**
+```
+Based on D-POAF® Framework documentation
+Licensed under CC BY 4.0 | Apache 2.0
+Available at: https://www.d-poaf.org
+```
 
-```
-This project uses the D-POAF® Framework, an open-source AI-native 
-software engineering methodology by Inovionix.
-```
+**For Academic Work:**
+See the [How to Cite](README.md#how-to-cite-this-work) section in the README.
 
 ---
 
-## Support and Community
+## 🌐 Community & Support
 
-### Free Community Support
-- 💬 **Discord Discussions**: [discord.gg/d-poaf/discussions](https://discord.gg/hm5TQn3neJ)
-- 📖 **Documentation**: github.com/inovionix/d-poaf/docs
-- 🐛 **Issue Tracker**: github.com/inovionix/d-poaf/issues
+### Free Community Resources
+- 💬 **Discord Community**: https://discord.gg/hm5TQn3neJ
+- 📖 **Documentation**: https://d-poaf.org/resources
+- 🐛 **Issue Tracker**: https://github.com/inovionix/d-poaf/issues
+- 💡 **Discussions**: https://github.com/inovionix/d-poaf/discussions
 
-### Commercial Support
-For enterprise support, custom implementations, or consulting services:
+### Questions or Clarifications
+For questions about licensing, attribution, or trademark usage:
 - 📧 **contact@inovionix.com**
 - 🌐 **www.d-poaf.org**
 
 ---
 
-## Patent Grant
+## ❓ Frequently Asked Questions
 
-The Apache 2.0 license includes an explicit patent grant. Contributors to D-POAF® grant users a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable patent license to make, use, sell, and distribute the software.
+**Q: Can I use D-POAF® in my commercial projects?**  
+A: Yes! Both CC BY 4.0 and Apache 2.0 allow commercial use with proper attribution.
 
----
+**Q: Do I need to open-source my work if I use D-POAF®?**  
+A: No. Neither CC BY 4.0 nor Apache 2.0 require you to open-source your derivative works.
 
-## Frequently Asked Questions
+**Q: Can I modify the framework for my organization's needs?**  
+A: Yes! You can adapt both the documentation and implementation materials. Just provide attribution and indicate changes.
 
-**Q: Can I use D-POAF® in my commercial product?**  
-A: Yes! Apache 2.0 explicitly allows commercial use.
+**Q: What's the difference between CC BY 4.0 and Apache 2.0 here?**  
+A: CC BY 4.0 is for conceptual/reference material (specifications, terminology). Apache 2.0 is for practical implementation resources (guides, templates, code).
 
-**Q: Do I need to open-source my modifications?**  
-A: No. Apache 2.0 is permissive and does not require derivative works to be open-sourced.
+**Q: Can I create a "D-POAF® consulting" business?**  
+A: Using the trademark in business names requires permission. Contact us to discuss partnership opportunities.
 
-**Q: Can I call my service "D-POAF® Consulting"?**  
-A: Trademark usage in business names requires permission. Use "MyCompany - D-POAF® Implementation Partner" instead, and contact us for partnership opportunities.
-
-**Q: Can I teach D-POAF® workshops?**  
-A: Yes, you can teach using the framework. However, only authorized partners can offer "Official D-POAF® Certification."
+**Q: Can I teach D-POAF® to my team?**  
+A: Yes! You can use and teach the framework freely. Just provide proper attribution.
 
 **Q: Do I need to pay for a license?**  
-A: No! The framework is completely free under Apache 2.0. Paid services are optional (certification, enterprise support, training).
+A: No! All framework content is free under open licenses. You only pay attribution (credit where due).
 
 ---
 
-## Summary
+## 📊 License Summary Table
 
-| Aspect | Status |
-|--------|--------|
-| **Framework** | ✅ Open Source (Apache 2.0) |
-| **Commercial Use** | ✅ Allowed |
-| **Modification** | ✅ Allowed |
-| **Distribution** | ✅ Allowed |
-| **Trademarks** | 🔒 Protected by Inovionix |
-| **Official Certification** | 🎓 Only via Inovionix or authorized partners |
-| **Community Support** | ✅ Free via GitHub |
-| **Enterprise Support** | 💼 Available (contact@inovionix.com) |
+| Aspect | Canonical & Docs (CC BY 4.0) | Guides & Tools (Apache 2.0) |
+|--------|------------------------------|------------------------------|
+| **Commercial Use** | ✅ Yes | ✅ Yes |
+| **Modification** | ✅ Yes | ✅ Yes |
+| **Distribution** | ✅ Yes | ✅ Yes |
+| **Attribution Required** | ✅ Yes | ✅ Yes |
+| **Patent Grant** | ❌ No | ✅ Yes |
+| **Trademark Protection** | 🔒 Separate | 🔒 Separate |
+
+---
+
+## 📄 Full License Texts
+
+- **CC BY 4.0 Full Text**: https://creativecommons.org/licenses/by/4.0/legalcode
+- **Apache 2.0 Full Text**: http://www.apache.org/licenses/LICENSE-2.0
 
 ---
 
 **© 2025 Inovionix | Azzeddine IHSINE & Sara IHSINE**  
-**Licensed under Apache License 2.0**  
-**All trademarks are property of their respective owners**
+**D-POAF® is a registered trademark of Inovionix**  
+**Framework content licensed under CC BY 4.0 & Apache License 2.0**
 
 For questions or clarifications:  
 📧 **contact@inovionix.com**  
