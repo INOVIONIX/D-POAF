@@ -35,7 +35,7 @@ D-POAF welcomes contributions in several forms:
 ## 🚀 Getting Started
 
 ### 1. Join the Community
-- **Discord**: https://discord.gg/hm5TQn3neJ
+- **Discord**: [Join](https://discord.gg/DMZMeHxzNd)
 - Introduce yourself in the community channel
 - Check active discussions about methodology and adoption
 
@@ -164,7 +164,7 @@ If you're submitting changes via Pull Request:
 
 ## 💬 Communication Channels
 
-- **Discord** (https://discord.gg/hm5TQn3neJ)  
+- **Discord**: [Join](https://discord.gg/DMZMeHxzNd)  
   Daily discussions, quick help, community chat
 
 - **GitHub Issues** (https://github.com/inovionix/d-poaf/issues)  
