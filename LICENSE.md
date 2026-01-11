@@ -171,7 +171,7 @@ See the [How to Cite](README.md#how-to-cite-this-work) section in the README.
 ## 🌐 Community & Support
 
 ### Free Community Resources
-- 💬 **Discord Community**: https://discord.gg/hm5TQn3neJ
+- 💬 **Discord Community**: [Join](https://discord.gg/DMZMeHxzNd)
 - 📖 **Documentation**: https://d-poaf.org/resources
 - 🐛 **Issue Tracker**: https://github.com/inovionix/d-poaf/issues
 - 💡 **Discussions**: https://github.com/inovionix/d-poaf/discussions
