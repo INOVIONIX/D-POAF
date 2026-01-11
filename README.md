@@ -10,7 +10,7 @@
 
 *A proof-oriented, evidence-driven framework for AI-native software engineering*
 
-[📖 Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) • [📚 Resources](https://d-poaf.org/resources) • [💬 Discord](https://discord.gg/hm5TQn3neJ) • [🐦 Twitter](https://x.com/inovionix)
+[📖 Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) • [📚 Resources](https://d-poaf.org/resources) • [💬 Discord](https://discord.gg/DMZMeHxzNd) • [🐦 Twitter](https://x.com/inovionix)
 
 </div>
 
@@ -151,7 +151,7 @@ You can adopt D-POAF principles incrementally:
 
 ### 4. Join the Community
 Connect with other practitioners:
-- [Discord Community](https://discord.gg/hm5TQn3neJ)
+- [Discord Community](https://discord.gg/DMZMeHxzNd)
 - [GitHub Discussions](https://github.com/inovionix/d-poaf/discussions)
 - Share your experience and learn from others
 
@@ -268,7 +268,7 @@ No. D-POAF applies to any team size. Whether you're working solo, in a small tea
 ### Where can I learn more?
 - [Canonical Specification](https://d-poaf.org/resources/D-POAF-Canonical-V1.pdf) - Foundational concepts
 - [Official Resources](https://d-poaf.org/resources) - Comprehensive guides
-- [Discord Community](https://discord.gg/hm5TQn3neJ) - Connect with practitioners
+- [Discord Community](https://discord.gg/DMZMeHxzNd) - Connect with practitioners
 
 ---
 
@@ -334,7 +334,7 @@ See [LICENSE-CC-BY](LICENSE-CC-BY) and [LICENSE-APACHE](LICENSE-APACHE) for full
 ## 🌐 Community & Support
 
 - **Website**: [https://d-poaf.org](https://d-poaf.org)
-- **Discord**: [https://discord.gg/hm5TQn3neJ](https://discord.gg/hm5TQn3neJ)
+- **Discord**: [https://discord.gg/hm5TQn3neJ](https://discord.gg/DMZMeHxzNd)
 - **GitHub Issues**: [Report issues / Request features](https://github.com/inovionix/d-poaf/issues)
 - **GitHub Discussions**: [Design proposals / RFCs](https://github.com/inovionix/d-poaf/discussions)
 - **YouTube**: [@D-POAFFramework](https://www.youtube.com/@D-POAFFramewrok)
@@ -375,7 +375,7 @@ We're not just building a framework. We're building a movement toward more trust
 
 ### 🚀 Ready to Start?
 
-**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/hm5TQn3neJ)** • **[📖 Read the Specification](https://d-poaf.org/canonical)**
+**[⭐ Star this repo](https://github.com/inovionix/d-poaf)** • **[💬 Join Discord](https://discord.gg/DMZMeHxzNd)** • **[📖 Read the Specification](https://d-poaf.org/canonical)**
 
 <br>
 
