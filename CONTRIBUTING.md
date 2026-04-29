@@ -1,116 +1,162 @@
-# Contributing to D-POAF
+# Contributing to D-POAF®
 
-First off, thank you for considering contributing to D-POAF! 🎉
+Thank you for considering contributing to D-POAF®! 🎉
 
-D-POAF is built on the principles of decentralized governance and collective intelligence. Your contributions are validated through our Proof-of-Value (PoV) consensus mechanism.
+D-POAF is built on the principles of decentralized governance and collective intelligence. Contributions are welcomed from practitioners, researchers, engineers, compliance professionals, and anyone working at the intersection of AI and software delivery.
+
+---
 
 ## 🌟 Ways to Contribute
 
-### Documentation
-- Improve existing documentation
-- Write tutorials and guides
-- Translate documentation
-- Create video tutorials
+### Framework & Documentation
+- Improve existing documentation or fix inconsistencies
+- Propose clarifications to the Canonical Specification via GitHub Discussions
+- Write tutorials, implementation guides, or how-to articles
+- Translate documentation into other languages
+
+### Templates & Kit
+- Suggest improvements to the Wave Scope, Proof Record, Dynamic Laws, or PromptRegister templates
+- Share adapted versions of the templates for specific industries or regulatory contexts
+- Contribute new template formats (e.g., sector-specific variants)
 
 ### Community
 - Answer questions in Discord
-- Help onboard new contributors
-- Share D-POAF in your network
-- Write blog posts about your experience
+- Help onboard new practitioners
+- Write blog posts or LinkedIn articles about your D-POAF experience
+- Share case studies or implementation feedback
 
-### Research
-- Propose new proof mechanisms
-- Improve consensus algorithms
-- Optimize governance models
-- Conduct security audits
+### Research & Academia
+- Propose extensions to the Proof Model (PoD, PoV, PoR)
+- Conduct empirical studies on D-POAF adoption
+- Publish papers referencing the framework (see CITATION.cff)
+- Suggest improvements to the Wave lifecycle or governance model
+
+---
 
 ## 🚀 Getting Started
 
-### 1. Join the Community
-- Discord: https://discord.gg/hm5TQn3neJ
-- Introduce yourself in #🎤introduce-yourself
-- Check #📘methodology-discussion for active discussions
+### 1. Read the Framework First
+Before contributing, read at least the [Practical Guide](kit/DPOAF_Practical_Guide.docx) and the [Canonical Specification](https://doi.org/10.5281/zenodo.18174958) to understand D-POAF's concepts and vocabulary.
+
+### 2. Join the Community
+- **Discord**: [discord.gg/DMZMeHxzNd](https://discord.gg/DMZMeHxzNd) — introduce yourself in `#introduce-yourself`
+- **GitHub Discussions**: For longer-form proposals and RFCs
+
+### 3. Check Open Issues
+Browse [GitHub Issues](https://github.com/inovionix/d-poaf/issues) to see what's already being worked on before starting something new.
+
+---
 
 ## 📝 Contribution Process
 
-### 1. Create an Issue
-Before starting work, create an issue describing:
-- What you want to build/fix
-- Why it's valuable
+### Step 1 — Open an Issue
+Before starting any work, open an issue describing:
+- What you want to improve or add
+- Why it is valuable for D-POAF practitioners
 - How you plan to implement it
 
-This allows for community discussion and PoV validation.
+This allows for community discussion before effort is invested.
 
-### 2. Fork & Branch
+### Step 2 — Fork & Branch
 ```bash
-# Create a feature branch
+# Fork the repository, then create a branch
 git checkout -b feature/your-feature-name
 
-# Or for bug fixes
-git checkout -b fix/bug-description
+# For fixes
+git checkout -b fix/issue-description
+
+# For documentation
+git checkout -b docs/what-you-are-improving
 ```
 
-### 6. Submit Pull Request
-- Push your branch
-- Create PR with clear description
-- Link related issues
-- Wait for PoV consensus (community review)
+### Step 3 — Make Your Changes
+- Follow the existing document style and terminology (refer to the [Terminology Reference](https://doi.org/10.5281/zenodo.18175200) for correct D-POAF vocabulary)
+- If modifying templates, test that they open correctly in Microsoft Word
+- If proposing governance changes, reference the relevant Dynamic Law
+
+### Step 4 — Submit a Pull Request
+- Push your branch and open a Pull Request
+- Write a clear description of what changed and why
+- Link the related issue
+- Wait for review by maintainers and community members
+
+### Step 5 — Review & Iterate
+Maintainers and community members will review your PR. Be open to feedback — contributions evolve through discussion, just like D-POAF Waves do.
+
+---
 
 ## 🏷️ Issue Labels
 
-- `good-first-issue`: Perfect for newcomers
-- `help-wanted`: Need community assistance
-- `bug`: Something isn't working
-- `enhancement`: New feature or improvement
-- `documentation`: Documentation improvements
-- `research`: Research-related tasks
-- `security`: Security-related issues
+| Label | Meaning |
+|-------|---------|
+| `good-first-issue` | Perfect for newcomers |
+| `help-wanted` | Community assistance needed |
+| `bug` | Something is incorrect or broken |
+| `enhancement` | New feature or improvement |
+| `documentation` | Documentation updates |
+| `template` | Template-related changes |
+| `governance` | Dynamic Laws or governance proposals |
+| `research` | Academic or research contributions |
+
+---
 
 ## 💬 Communication Channels
 
-- **Discord**: Daily discussions, quick help
-- **GitHub Issues**: Bug reports, feature requests
-- **GitHub Discussions**: Long-form discussions, RFCs
-- **Community Calls**: Monthly video calls (announced in Discord)
+- **Discord** — Daily discussions, quick questions, community calls
+- **GitHub Issues** — Bug reports, feature requests, specific problems
+- **GitHub Discussions** — Long-form proposals, RFCs, framework evolution
+- **Email** — contact@inovionix.com for partnership or formal inquiries
+
+---
 
 ## 🏆 Recognition
 
 Contributors are recognized through:
-- **Credits**: In README and documentation
-- **Roles**: Discord roles based on contribution level
-- **Certification**: Path to D-POAF certification
-- **Governance**: Active contributors can participate in project governance
+- **Credits** — Named in release notes and documentation
+- **Discord roles** — Based on contribution level and engagement
+- **Certification path** — Active contributors gain priority access to D-POAF certification programs
+- **Governance participation** — Sustained contributors are invited to participate in framework governance decisions
+
+---
 
 ## ⚖️ Code of Conduct
 
 ### Our Pledge
-We are committed to providing a welcoming and inclusive environment.
+We are committed to providing a welcoming, inclusive, and respectful environment for all contributors regardless of experience level, background, or affiliation.
 
 ### Expected Behavior
-- Be respectful and inclusive
-- Accept constructive criticism
-- Focus on what's best for the community
-- Show empathy towards others
+- Be respectful and constructive in all interactions
+- Accept feedback with openness
+- Focus on what is best for the community and the framework
+- Give credit to others' work and ideas
 
 ### Unacceptable Behavior
-- Harassment or discrimination
+- Harassment, discrimination, or exclusionary language
 - Trolling or insulting comments
-- Public or private harassment
 - Publishing others' private information
+- Any conduct that would be considered inappropriate in a professional setting
 
 ### Enforcement
-Violations should be reported to contact@inovionix.com.
+Violations should be reported to **contact@inovionix.com**. All reports are reviewed confidentially.
+
+---
 
 ## 📄 License
 
-By contributing, you agree that your contributions will be licensed under Apache License 2.0.
+By contributing to this repository, you agree that your contributions will be published under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, consistent with the rest of the D-POAF® Framework.
+
+See [LICENSE.md](LICENSE.md) for full details.
+
+---
 
 ## 🙋 Questions?
 
-- Ask in Discord #help channel
-- Create a GitHub Discussion
+- Ask in Discord `#help` channel
+- Open a [GitHub Discussion](https://github.com/inovionix/d-poaf/discussions)
 - Email: contact@inovionix.com
 
 ---
 
-Thank you for contributing to D-POAF! Together, we're building the future of verifiable software delivery. 🚀
+Thank you for contributing to D-POAF®. Together, we're building the foundation for trustworthy, accountable, AI-enabled software delivery. 🚀
+
+**© 2025–2026 Inovionix — Azzeddine IHSINE & Sara IHSINE — www.d-poaf.org**

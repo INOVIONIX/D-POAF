@@ -1,0 +1,102 @@
+cff-version: 1.2.0
+message: "If you use D-POAF® in your research, projects, or publications, please cite it as below."
+
+title: "D-POAF® Framework: Decentralized Proof-Oriented AI Framework"
+version: 1.0.0
+date-released: 2025-12-05
+license: CC-BY-4.0
+url: "https://www.d-poaf.org"
+repository-code: "https://github.com/inovionix/d-poaf"
+
+authors:
+  - family-names: Ihsine
+    given-names: Azzeddine
+    orcid: ""
+    affiliation: Inovionix
+    email: contact@inovionix.com
+
+  - family-names: Ihsine
+    given-names: Sara
+    orcid: ""
+    affiliation: Inovionix
+
+abstract: >
+  D-POAF® (Decentralized Proof-Oriented AI Framework) is a proof-oriented,
+  evidence-driven framework for AI-enabled software engineering. It defines
+  a structured lifecycle model built around verifiable proof (PoD, PoV, PoR),
+  decentralized governance through Dynamic Laws, and end-to-end traceability
+  of intent, decisions, actions, artifacts, and outcomes in human-AI
+  engineering environments. The framework introduces 6 collaborative roles,
+  7 operational sub-phases, 5 Wave Profiles, and a PromptRegister for
+  full AI prompt traceability.
+
+keywords:
+  - AI governance
+  - AI-enabled software engineering
+  - decentralized governance
+  - proof-oriented framework
+  - traceability
+  - prompt management
+  - human-AI collaboration
+  - EU AI Act
+  - responsible AI
+  - software lifecycle
+  - wave delivery
+  - evidence-driven decisions
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18174958
+    description: "D-POAF® Canonical Specification v1.0"
+  - type: doi
+    value: 10.5281/zenodo.18175200
+    description: "D-POAF® Terminology Reference v1.0"
+  - type: doi
+    value: 10.5281/zenodo.17927536
+    description: "D-POAF® Practical Guide v1.0"
+  - type: doi
+    value: 10.5281/zenodo.19868884
+    description: "D-POAF® Implementation Kit — Starter Pack v1.0"
+  - type: other
+    value: "ISBN 979-10-415-8736-0"
+    description: "Framework Book — Legal deposit BnF, December 2025"
+
+references:
+  - type: document
+    title: "D-POAF® Canonical Specification v1.0"
+    authors:
+      - family-names: Ihsine
+        given-names: Azzeddine
+      - family-names: Ihsine
+        given-names: Sara
+    doi: 10.5281/zenodo.18174958
+    year: 2025
+    publisher:
+      name: Zenodo
+    license: CC-BY-4.0
+
+  - type: document
+    title: "D-POAF® Terminology Reference v1.0"
+    authors:
+      - family-names: Ihsine
+        given-names: Azzeddine
+      - family-names: Ihsine
+        given-names: Sara
+    doi: 10.5281/zenodo.18175200
+    year: 2026
+    publisher:
+      name: Zenodo
+    license: CC-BY-4.0
+
+  - type: document
+    title: "D-POAF® Implementation Kit — Starter Pack v1.0"
+    authors:
+      - family-names: Ihsine
+        given-names: Azzeddine
+      - family-names: Ihsine
+        given-names: Sara
+    doi: 10.5281/zenodo.19868884
+    year: 2026
+    publisher:
+      name: Zenodo
+    license: CC-BY-4.0
