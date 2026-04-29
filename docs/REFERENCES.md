@@ -57,7 +57,7 @@ doi: 10.5281/zenodo.18174958. [Online]. Available: https://doi.org/10.5281/zenod
 ## License
 
 All publications are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
-See [LICENSE.md](LICENSE.md) for details.
+See [LICENSE.md](../LICENSE.md) for details.
 
 ---
 
