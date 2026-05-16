@@ -1,0 +1,153 @@
+name: "🌊 D-POAF Wave Scope"
+description: "Open a new Wave (governed unit of AI-enabled work). Use this at the START of every project or feature."
+title: "[WAVE] "
+labels: ["dpoaf:wave", "needs-triage"]
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## D-POAF® Wave Scope
+        A **Wave** is a governed unit of AI-enabled software delivery. Fill in everything you can — fields marked with ⚠ are required.
+        See the [D-POAF Practical Guide](https://d-poaf.org/resources/) for details.
+
+  - type: markdown
+    attributes:
+      value: "### A) Wave Identification"
+
+  - type: input
+    id: wave_id
+    attributes:
+      label: "⚠ Wave ID"
+      description: "Use a unique identifier (e.g., WAVE-2026-001)"
+      placeholder: "WAVE-2026-001"
+    validations:
+      required: true
+
+  - type: input
+    id: wave_name
+    attributes:
+      label: "⚠ Wave Name"
+      placeholder: "User Authentication Module Refactoring"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: wave_profile
+    attributes:
+      label: "⚠ Wave Profile"
+      description: "Which D-POAF Wave Profile applies?"
+      options:
+        - "Deliver Wave"
+        - "Decide Wave"
+        - "Control Wave"
+        - "Delegate Wave"
+        - "Operate Wave"
+    validations:
+      required: true
+
+  - type: input
+    id: wave_captain
+    attributes:
+      label: "⚠ Wave Captain"
+      description: "Name + contact of the single accountable person"
+      placeholder: "Sara IHSINE (sara@inovionix.com)"
+    validations:
+      required: true
+
+  - type: input
+    id: target_end
+    attributes:
+      label: "Target end date"
+      placeholder: "2026-06-30"
+
+  - type: markdown
+    attributes:
+      value: "### B) Business Objective & Authorized AI Tools"
+
+  - type: textarea
+    id: business_objective
+    attributes:
+      label: "⚠ Business Objective"
+      description: "What business problem does this Wave solve? Why now?"
+      placeholder: "Describe the business objective clearly and concisely."
+    validations:
+      required: true
+
+  - type: textarea
+    id: ai_tools
+    attributes:
+      label: "⚠ AI Tools Authorized"
+      description: "Which AI models/tools may be used in this Wave? Be explicit about version."
+      placeholder: |
+        - Claude claude-sonnet-4-5-20250929
+        - GitHub Copilot Business v3.4
+        - No other tools authorized for this Wave.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source_docs
+    attributes:
+      label: "Source documents"
+      description: "Which documents inform the RAGer for requirement extraction?"
+      placeholder: |
+        - Spec doc v1.2 (link)
+        - API design guidelines (link)
+        - Test dataset (link)
+
+  - type: markdown
+    attributes:
+      value: "### C) Scope Definition"
+
+  - type: textarea
+    id: in_scope
+    attributes:
+      label: "⚠ In Scope"
+      description: "List what this Wave explicitly covers."
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_scope
+    attributes:
+      label: "Out of Scope"
+      description: "List what is explicitly excluded from this Wave."
+
+  - type: markdown
+    attributes:
+      value: "### D) Success Criteria — Proofs"
+
+  - type: textarea
+    id: pod
+    attributes:
+      label: "⚠ PoD — Proof of Delivery"
+      description: "What does \"done\" look like? Be specific."
+      placeholder: "All feature blocks implemented, tested, and approved by Wave Captain."
+    validations:
+      required: true
+
+  - type: textarea
+    id: pov
+    attributes:
+      label: "⚠ PoV — Proof of Value"
+      description: "What measurable business outcome proves this Wave delivered value?"
+      placeholder: "Authentication error rate reduced by 30%. Response time < 200ms."
+    validations:
+      required: true
+
+  - type: textarea
+    id: por
+    attributes:
+      label: "PoR — Proof of Reliability"
+      description: "Compliance/security requirements that apply (or N/A with justification)."
+      placeholder: "OWASP Top 10 reviewed. GDPR data handling validated. No critical vulnerabilities."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        Once filled, this issue serves as the **Wave Scope Document** for the Wave.
+        Link all related Prompt Actions and the closing Proof Record back to this issue using `#<issue-number>`.

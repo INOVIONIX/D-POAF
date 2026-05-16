@@ -1,0 +1,184 @@
+name: "✅ D-POAF Proof Record (Wave Close)"
+description: "Close a Wave with a signed Proof Record. PoD, PoV, PoR with evidence."
+title: "[PROOF] "
+labels: ["dpoaf:proof-record", "wave-closing"]
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## D-POAF® Proof Record
+        Per Dynamic Law DL-012: **No Wave may be marked as closed without a completed and signed Proof Record.**
+        Reference the Wave Scope issue and all related Prompt Actions.
+
+  - type: input
+    id: wave_ref
+    attributes:
+      label: "⚠ Wave reference"
+      description: "Link to the Wave Scope issue (#NNN)"
+      placeholder: "#42"
+    validations:
+      required: true
+
+  - type: input
+    id: wave_captain
+    attributes:
+      label: "⚠ Wave Captain"
+      placeholder: "Sara IHSINE"
+    validations:
+      required: true
+
+  - type: input
+    id: date_closed
+    attributes:
+      label: "⚠ Date closed"
+      placeholder: "2026-06-30"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### PoD — Proof of Delivery"
+
+  - type: textarea
+    id: pod_deliverables
+    attributes:
+      label: "⚠ Deliverables"
+      description: "List everything delivered (code, docs, tests). Include commit hashes."
+    validations:
+      required: true
+
+  - type: textarea
+    id: pod_validation
+    attributes:
+      label: "⚠ Validation method"
+      description: "How was delivery validated? (code review, UAT, demo, automated tests)"
+    validations:
+      required: true
+
+  - type: input
+    id: pod_validated_by
+    attributes:
+      label: "⚠ Validated by"
+      description: "Name + role of person who confirmed delivery"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pod_status
+    attributes:
+      label: "PoD Status"
+      options:
+        - "✓ Approved"
+        - "⚠ Partial"
+        - "✗ Not Met"
+        - "N/A"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### PoV — Proof of Value"
+
+  - type: textarea
+    id: pov_expected
+    attributes:
+      label: "⚠ Expected value (from Wave Scope)"
+      description: "What impact was promised? (metrics, KPIs, outcomes)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: pov_achieved
+    attributes:
+      label: "⚠ Achieved value"
+      description: "What actually happened? Include numbers."
+    validations:
+      required: true
+
+  - type: input
+    id: pov_method
+    attributes:
+      label: "Measurement method"
+      description: "How was impact measured? When?"
+
+  - type: dropdown
+    id: pov_status
+    attributes:
+      label: "PoV Status"
+      options:
+        - "✓ Approved"
+        - "⚠ Partial"
+        - "✗ Not Met"
+        - "N/A"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### PoR — Proof of Reliability"
+
+  - type: textarea
+    id: por_security
+    attributes:
+      label: "Security checks performed"
+      placeholder: "e.g., OWASP review, pen test, dependency scan"
+
+  - type: textarea
+    id: por_compliance
+    attributes:
+      label: "Compliance requirements met"
+      placeholder: "e.g., GDPR, SOC 2, EU AI Act, ISO 27001"
+
+  - type: textarea
+    id: por_anomalies
+    attributes:
+      label: "Anomalies detected during monitoring"
+      description: "Any issues flagged by Peacekeepers post-delivery?"
+
+  - type: dropdown
+    id: por_status
+    attributes:
+      label: "PoR Status"
+      options:
+        - "✓ Approved"
+        - "⚠ Partial"
+        - "✗ Not Met"
+        - "N/A (justified)"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Lessons learned & FeedbackRegister updates"
+
+  - type: textarea
+    id: worked_well
+    attributes:
+      label: "What worked well in this Wave?"
+      placeholder: "Capture what to replicate in future Waves."
+
+  - type: textarea
+    id: to_improve
+    attributes:
+      label: "What should be improved?"
+      placeholder: "Process issues, prompt quality problems, tooling gaps."
+
+  - type: textarea
+    id: prompt_register_updates
+    attributes:
+      label: "PromptRegister updates needed"
+      description: "Which PAs should be archived, refined, or flagged as reusable?"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### ⚠ Approval & Sign-Off
+        Once approved, close the Wave Scope issue with a link to this Proof Record.
+
+        - [ ] Wave Captain has signed off
+        - [ ] Sponsor / Stakeholder accepted
+        - [ ] Peacekeepers cleared (no outstanding issues)

@@ -1,0 +1,173 @@
+name: "🤖 D-POAF Prompt Action (PA)"
+description: "Log a single AI generation event. ONE issue per AI invocation that produces a code/doc/test artifact."
+title: "[PA] "
+labels: ["dpoaf:prompt-action", "ai-generated"]
+projects: []
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## D-POAF® Prompt Action
+        Log this **before** invoking the AI (per Dynamic Law DL-006: PromptRegister is Mandatory).
+        See the [Practical Guide](https://d-poaf.org/resources/) for the full PromptRegister specification.
+
+  - type: input
+    id: pa_id
+    attributes:
+      label: "⚠ PA-ID"
+      description: "Unique within the Wave"
+      placeholder: "PA-001"
+    validations:
+      required: true
+
+  - type: input
+    id: wave_ref
+    attributes:
+      label: "⚠ Wave reference"
+      description: "Link to the Wave Scope issue (#NNN)"
+      placeholder: "#42"
+    validations:
+      required: true
+
+  - type: input
+    id: req_ref
+    attributes:
+      label: "⚠ Requirement reference"
+      description: "Which REQ-ID from the Wave Scope does this PA address?"
+      placeholder: "REQ-01"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: "⚠ Wave Sub-Phase"
+      options:
+        - "1 - Intent & Scope"
+        - "2 - Contextualize & Extract"
+        - "3 - Design Prompt Actions"
+        - "4 - Build & Generate"
+        - "5 - Coordinate & Validate"
+        - "6 - Deliver & Monitor"
+        - "7 - Feedback & Evolve"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: "⚠ Role drafting this prompt"
+      options:
+        - "Wave Surfer"
+        - "RAGer"
+        - "Wave Captain"
+        - "AI (autonomous agent)"
+        - "Community Member"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Model identity (DL-003 — Model Version Logging)"
+
+  - type: input
+    id: model_provider
+    attributes:
+      label: "⚠ Model provider + name + version"
+      description: "Be exact. Use the API model identifier."
+      placeholder: "Anthropic / Claude / claude-sonnet-4-5-20250929"
+    validations:
+      required: true
+
+  - type: textarea
+    id: model_config
+    attributes:
+      label: "⚠ Model configuration snapshot"
+      description: "Temperature, max_tokens, system prompt reference, tools enabled, response format."
+      placeholder: |
+        temperature: 0.2
+        max_tokens: 4000
+        system: "sp-team-v1" (sha256 hash 8a2c…)
+        tools: none
+        response_format: text
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### Prompt content + context"
+
+  - type: input
+    id: prompt_title
+    attributes:
+      label: "⚠ Prompt title (short)"
+      placeholder: "Generate sentiment classification function"
+    validations:
+      required: true
+
+  - type: textarea
+    id: prompt_text
+    attributes:
+      label: "⚠ Prompt text (full)"
+      description: "Paste the full user-message text. If sensitive, paste hash + secure-storage link."
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: context_source
+    attributes:
+      label: "⚠ Context source"
+      description: "Which documents/RAG sources fed this prompt? Include version hashes."
+      placeholder: |
+        client_spec_v1.2.pdf (sha256 a3f9…) §2.1 — full paste
+        test_v2.csv — no retrieval, only file path provided
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "### After generation"
+
+  - type: textarea
+    id: output_summary
+    attributes:
+      label: "Output summary"
+      description: "What did the AI produce? File path + commit hash if landed in code."
+      placeholder: "classify_feedback.py — 90 lines. Committed to abc123de."
+
+  - type: dropdown
+    id: quality
+    attributes:
+      label: "Quality rating (1-5)"
+      description: "Per DL-007. Refine prompts rated 1-2 before reuse."
+      options:
+        - "5 - Excellent (Reusable)"
+        - "4 - Good (Reusable after review)"
+        - "3 - Acceptable (Refine before reuse)"
+        - "2 - Poor (Major rework needed)"
+        - "1 - Failed (Do NOT reuse)"
+
+  - type: dropdown
+    id: reusable
+    attributes:
+      label: "Reusable?"
+      description: "Per DL-008 — only if quality ≥4 AND reviewed by Wave Captain"
+      options:
+        - "No"
+        - "Yes (Wave Captain approved)"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Issues / notes"
+      description: "Anything that affects reproducibility, reuse, or future debugging."
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Closing this PA?** Update the labels and add the resulting commit hash + file path. Link the commit in the body.
+        Per Dynamic Law DL-005, the commit message should include `[AI:<model>:<PA-ID>]`.

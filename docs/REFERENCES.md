@@ -8,10 +8,11 @@ All official D-POAF® publications are permanently archived and citable via DOI.
 
 | Document | DOI | Status | Date |
 |----------|-----|--------|------|
-| Canonical Specification v1.0 | [10.5281/zenodo.18174958](https://doi.org/10.5281/zenodo.18174958) | Frozen Canonical | Dec 2025 |
+| Canonical Specification v1.1 | [10.5281/zenodo.20143494](https://doi.org/10.5281/zenodo.20143494) | Frozen Canonical | Dec 2025 |
 | Terminology Reference v1.0 | [10.5281/zenodo.18175200](https://doi.org/10.5281/zenodo.18175200) | Active | Jan 2026 |
 | Practical Guide v1.0 | [10.5281/zenodo.17927536](https://doi.org/10.5281/zenodo.17927536) | Active | 2026 |
 | Implementation Kit v1.0 | [10.5281/zenodo.19868884](https://doi.org/10.5281/zenodo.19868884) | Active | Apr 2026 |
+| Enterprise AI Governance Framework v1.0 | [10.5281/zenodo.20113990](https://doi.org/10.5281/zenodo.20113990) | Active | Apr 2026 |
 
 ---
 

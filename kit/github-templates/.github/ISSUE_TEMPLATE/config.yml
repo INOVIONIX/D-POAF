@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 D-POAF Practical Guide
+    url: https://d-poaf.org/resources/
+    about: Read the Practical Guide before opening your first Wave. ~15 minutes.
+  - name: 💬 D-POAF Community (Discord)
+    url: https://discord.gg/DMZMeHxzNd
+    about: Ask questions, share Waves, contribute to the framework.
+  - name: 🌐 D-POAF Framework Website
+    url: https://d-poaf.org/
+    about: Full framework reference, standardization path, governance documents.
