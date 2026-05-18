@@ -1,0 +1,131 @@
+<!--
+D-POAF® Prompt Action — Confluence Storage Format Template
+Version: 1.1 — 2026 — Added Macro-Phase derivation + Commit/Repo reference
+
+Open this template BEFORE invoking the AI (Dynamic Law DL-006).
+The 3 Traceability Thread fields (star) are MANDATORY for reproducibility.
+-->
+
+<h1>🤖 [PA-ID] — [Prompt Title]</h1>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p><strong>Create this page BEFORE invoking the AI</strong> (Dynamic Law DL-006: PromptRegister is Mandatory). Retroactive logging defeats the purpose of capturing the model state at generation time.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>Identification</h2>
+<table>
+  <tbody>
+    <tr><th>PA-ID</th><td>PA-001</td></tr>
+    <tr><th>Wave</th><td><ac:placeholder>Link to the Wave Scope page</ac:placeholder></td></tr>
+    <tr><th>Requirement reference</th><td>REQ-XX</td></tr>
+    <tr><th>Sub-Phase</th><td>3 - Design Prompt Actions</td></tr>
+    <tr><th>Macro-Phase (derived)</th><td>
+      <em>1. Instruct and Scope (if Sub-Phase=1) / 2. Shape and Align (if Sub-Phase=2 or 3) / 3. Execute and Evolve (if Sub-Phase=4, 5, 6) / 4. Learn and Adapt (if Sub-Phase=7)</em>
+    </td></tr>
+    <tr><th>Role</th><td>Wave Surfer / RAGer / Wave Captain / AI / Community Member</td></tr>
+    <tr><th>Date</th><td><time datetime="2026-01-01" /></td></tr>
+    <tr><th>Drafted by</th><td><ac:placeholder>Assign a user</ac:placeholder></td></tr>
+  </tbody>
+</table>
+
+<h2>★ Traceability Thread — Model + Config + Context</h2>
+
+<ac:structured-macro ac:name="warning">
+  <ac:rich-text-body>
+    <p>These three sections are <strong>mandatory</strong>. Together they let any future auditor reproduce the exact AI generation that produced an artifact. <strong>Do not skip.</strong></p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h3>★ Model identity (DL-003)</h3>
+<p>Provider / model / exact version. The model identifier as it appears in the API.</p>
+<p><code>Anthropic / Claude / claude-sonnet-4-5-20250929</code></p>
+
+<h3>★ Model configuration</h3>
+<p>All parameters needed to reproduce the generation deterministically (within model stochasticity).</p>
+<ac:structured-macro ac:name="code">
+  <ac:parameter ac:name="language">yaml</ac:parameter>
+  <ac:plain-text-body><![CDATA[
+temperature: 0.2
+top_p: 1.0
+max_tokens: 4000
+system_prompt: "sp-team-v1"  (sha256: 8a2c...d3b1, archived at /prompts/sp-team-v1.md)
+tools: none
+response_format: text
+stop_sequences: []
+seed: null
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+<h3>★ Context source</h3>
+<p>What documents / data fed this prompt? Include version hashes and retrieval method.</p>
+<ul>
+  <li><code>client_spec_v1.2.pdf</code> (sha256: a3f9...e7c4) section 2.1 — full paste into user message</li>
+  <li><code>test_v2.csv</code> — referenced as file path; no retrieval</li>
+  <li><ac:placeholder>Add more sources if applicable</ac:placeholder></li>
+</ul>
+
+<h2>Prompt</h2>
+
+<h3>Prompt title (short)</h3>
+<p><ac:placeholder>One-line title for cataloging</ac:placeholder></p>
+
+<h3>Prompt text (full)</h3>
+<ac:structured-macro ac:name="expand">
+  <ac:parameter ac:name="title">Click to expand the full prompt text</ac:parameter>
+  <ac:rich-text-body>
+    <ac:structured-macro ac:name="code">
+      <ac:parameter ac:name="language">text</ac:parameter>
+      <ac:plain-text-body><![CDATA[
+(Paste the exact user-message text here, OR a sha256 hash + secure-storage link if the prompt contains sensitive content)
+]]></ac:plain-text-body>
+    </ac:structured-macro>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>Output (after AI generation)</h2>
+
+<h3>Output summary</h3>
+<p>What did the AI produce? Include file path + commit hash if the output landed in code.</p>
+<p><ac:placeholder>e.g., classify_feedback.py — 90 lines, handles all 6 categories. Committed to abc123de.</ac:placeholder></p>
+
+<h3>Quality and status</h3>
+<table>
+  <tbody>
+    <tr><th>Quality (1-5)</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Green</ac:parameter>
+        <ac:parameter ac:name="title">5 - Excellent</ac:parameter>
+      </ac:structured-macro>
+    </td></tr>
+    <tr><th>Reusable? (DL-008)</th><td>Yes (Wave Captain approved) / No / Pending review</td></tr>
+    <tr><th>Status</th><td>Active / Refined / Archived / Flagged</td></tr>
+    <tr><th>Updated by</th><td><ac:placeholder>Assign user</ac:placeholder></td></tr>
+  </tbody>
+</table>
+
+<h3>Issues and notes</h3>
+<p>Anything that affects reuse, reproducibility, or future debugging.</p>
+<p><ac:placeholder>Note any prompt refinement needed, edge cases missed, model behavior surprises.</ac:placeholder></p>
+
+<h2>Review and PR Reference</h2>
+
+<h3>Reviewer (DL-002 — No Blind Acceptance)</h3>
+<p>Name of the second human who reviewed the AI output before commit. Must be different from the role that drafted the prompt (DL-011).</p>
+<p><ac:placeholder>Assign user</ac:placeholder></p>
+
+<h3>Linked Repository and PR (NEW)</h3>
+<table>
+  <tbody>
+    <tr><th>Repository</th><td><ac:placeholder>e.g., https://github.com/myorg/myrepo (usually inherited from Wave Scope)</ac:placeholder></td></tr>
+    <tr><th>Branch</th><td><ac:placeholder>e.g., feature/WAVE-2026-001</ac:placeholder></td></tr>
+    <tr><th>Commit hash</th><td><ac:placeholder>e.g., abc123de — must carry tag [AI:model:PA-ID] per DL-005</ac:placeholder></td></tr>
+    <tr><th>Pull Request URL</th><td><ac:placeholder>e.g., https://github.com/myorg/myrepo/pull/123</ac:placeholder></td></tr>
+    <tr><th>Files touched</th><td><ac:placeholder>e.g., src/recommender.py / tests/test_recommender.py</ac:placeholder></td></tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<p><em>D-POAF® Framework — Prompt Action v1.1 — d-poaf.org — Licensed under CC BY 4.0</em></p>

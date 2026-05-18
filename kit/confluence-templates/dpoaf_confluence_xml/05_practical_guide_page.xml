@@ -1,0 +1,131 @@
+<!--
+D-POAF® Practical Guide — Confluence Storage Format Page
+Version: 1.0 — 2026
+
+One-shot page. Lives at the root of your D-POAF Space, pinned.
+-->
+
+<h1>📖 Practical Guide — D-POAF® Framework</h1>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p><strong>Understand D-POAF® in 15 minutes.</strong> Implement it in your first Wave today.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>1. What Is D-POAF®?</h2>
+
+<ac:structured-macro ac:name="note">
+  <ac:rich-text-body>
+    <p><strong>The Core Problem:</strong> 92% of developers now use AI coding tools daily (GitHub Octoverse, 2024). But when something goes wrong in production, teams often cannot answer: who decided this? Which prompt produced it? Was it aligned with the original business requirement?</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<p><strong>D-POAF® (Decentralized Proof-Oriented AI Framework)</strong> is an open-source governance framework designed to make AI-enabled software delivery structured, traceable, and provable, by design, not as an afterthought.</p>
+
+<p><strong>D-POAF does not replace</strong> your existing tools (Git, Jira, CI/CD). It adds a governance layer on top: a structured unit of work called a <strong>Wave</strong> that captures AI context, human decisions, and structured evidence across every phase of delivery.</p>
+
+<h3>Three Founding Principles</h3>
+<ul>
+  <li><strong>Proof over assumption.</strong> No AI contribution without traceability.</li>
+  <li><strong>Roles over ad-hoc.</strong> Accountability is a structural property of delivery, not a documentation exercise.</li>
+  <li><strong>Living Governance.</strong> Governance evolves with the team, no single authority owns the rules.</li>
+</ul>
+
+<ac:structured-macro ac:name="note">
+  <ac:rich-text-body>
+    <p><strong>Published:</strong> D-POAF® was published in 2025 on CERN's Zenodo infrastructure with citable DOIs. It predates the January 2026 wave of AI Software Engineering standards, one of the first governance frameworks specifically designed for AI-native software delivery.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>2. The Wave — Core Delivery Unit</h2>
+
+<p>Everything in D-POAF® is organized around a <strong>Wave</strong>: a governed container for a unit of AI-enabled work. Think of a Wave as a smart sprint, one that not only tracks what was done, but why it was done, how the AI contributed, and what proof exists that it worked.</p>
+
+<p>A Wave is not a ticket, not a sprint, and not a project. It is a self-contained unit of work that structures AI contributions across six dimensions.</p>
+
+<h3>The 6 Dimensions of a Wave</h3>
+<table>
+  <thead>
+    <tr><th>Dimension</th><th>What it governs inside the Wave</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Scope</strong></td><td>Defines objectives, boundaries, and the business requirement chain for the Wave.</td></tr>
+    <tr><td><strong>Piloting</strong></td><td>Records early AI experiments, tool evaluations, and prompt context decisions before implementation.</td></tr>
+    <tr><td><strong>AI Context</strong></td><td>Maintains the register of prompts, model versions, context snapshots, and AI reasoning.</td></tr>
+    <tr><td><strong>Execution</strong></td><td>Tracks implementation activity including AI-generated contributions and human decisions.</td></tr>
+    <tr><td><strong>Proofs</strong></td><td>Produces structured evidence: Proof of Delivery (PoD), Proof of Value (PoV), Proof of Reliability (PoR).</td></tr>
+    <tr><td><strong>Traceability</strong></td><td>Documents the auditable chain from business requirement to deployed outcome.</td></tr>
+  </tbody>
+</table>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p><strong>Practical tip:</strong> You do not need to fill all 6 dimensions perfectly on your first Wave. Start with Scope, AI Context, and Proofs. Add the others as your team gets comfortable with the framework.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>3. The 5 Documents of the Starter Kit</h2>
+
+<table>
+  <thead><tr><th>Document</th><th>What it does</th><th>When to use</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Practical Guide</strong></td><td>This page. Concepts, roles, lifecycle, implementation.</td><td>Read first. ~15 minutes.</td></tr>
+    <tr><td><strong>Dynamic Laws Starter</strong></td><td>15 ready-to-use governance rules. Includes amendment log.</td><td>Before Wave 1. Adopt as governance baseline.</td></tr>
+    <tr><td><strong>Wave Scope</strong></td><td>Fillable template defining objectives, team, scope, success criteria.</td><td>At the start of every Wave.</td></tr>
+    <tr><td><strong>PromptRegister</strong></td><td>Log every Prompt Action: model, context, output, quality, reusability.</td><td>From Phase 3 onwards.</td></tr>
+    <tr><td><strong>Proof Record</strong></td><td>Fillable template recording PoD, PoV, PoR evidence + sign-off.</td><td>At Wave close.</td></tr>
+  </tbody>
+</table>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p><strong>Minimum viable start:</strong> You can run your first Wave with just Dynamic Laws + Wave Scope + Proof Record. Add the PromptRegister from your first prompt onwards. The guide is your reference — you do not need to re-read it for every Wave.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>4. The 6 Roles in a Wave</h2>
+
+<table>
+  <thead><tr><th>Role</th><th>Responsibility</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Wave Captain</strong></td><td>Single accountable owner of the Wave. Signs off on Proof Record.</td></tr>
+    <tr><td><strong>RAGer</strong></td><td>Prepares context, retrieves data, structures requirements for prompts.</td></tr>
+    <tr><td><strong>Wave Surfer</strong></td><td>Drafts and refines Prompt Actions. Manages the PromptRegister.</td></tr>
+    <tr><td><strong>AI</strong></td><td>Automated generator. Operates under explicit human boundaries.</td></tr>
+    <tr><td><strong>Peacekeepers</strong></td><td>Security, compliance, and reliability guardrails. Audit role.</td></tr>
+    <tr><td><strong>Community Members</strong></td><td>Contributors who participate in Dynamic Laws and feedback loops.</td></tr>
+  </tbody>
+</table>
+
+<h2>5. The Proof Model — PoD / PoV / PoR</h2>
+
+<p>Every Wave produces three families of evidence:</p>
+<table>
+  <thead><tr><th>Proof</th><th>What it asserts</th></tr></thead>
+  <tbody>
+    <tr><td><strong>PoD — Proof of Delivery</strong></td><td>The deliverable exists and works as specified. (artifacts, tests, validations)</td></tr>
+    <tr><td><strong>PoV — Proof of Value</strong></td><td>The deliverable achieved the promised business outcome. (metrics, KPIs)</td></tr>
+    <tr><td><strong>PoR — Proof of Reliability</strong></td><td>The deliverable is compliant, secure, and operationally reliable. (audits, monitoring, anomalies)</td></tr>
+  </tbody>
+</table>
+
+<h2>6. Where to start</h2>
+<ol>
+  <li>Read <ac:link><ri:page ri:content-title="Dynamic Laws" /></ac:link> — agree which laws to adopt with your team.</li>
+  <li>Open your first <ac:link><ri:page ri:content-title="Waves" /></ac:link> page (create one from the Wave Scope template).</li>
+  <li>Log every AI invocation in <ac:link><ri:page ri:content-title="Prompt Actions" /></ac:link>.</li>
+  <li>At Wave close, create a <ac:link><ri:page ri:content-title="Proof Records" /></ac:link> page (from the Proof Record template).</li>
+  <li>Read <ac:link><ri:page ri:content-title="Workflow" /></ac:link> for the day-by-day walkthrough.</li>
+</ol>
+
+<h2>7. Further reading</h2>
+<ul>
+  <li>🌐 <a href="https://d-poaf.org">d-poaf.org</a> — full framework reference</li>
+  <li>📚 D-POAF® Canonical Specification — frozen reference document</li>
+  <li>💬 <a href="https://discord.gg/DMZMeHxzNd">Community Discord</a></li>
+</ul>
+
+<hr/>
+
+<p><em>D-POAF® Framework — Practical Guide v1.0 — d-poaf.org — Licensed under CC BY 4.0</em></p>

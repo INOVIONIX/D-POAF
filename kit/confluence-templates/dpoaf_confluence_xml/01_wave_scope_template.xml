@@ -1,0 +1,193 @@
+<!--
+D-POAF® Wave Scope — Confluence Storage Format Template
+Version: 1.1 — 2026 — Added Sprint/Repo association + 4 macro-phases (Canonical Spec v1.1)
+
+HOW TO USE:
+1. In your Confluence Space, go to: Space settings → Templates
+2. Click "Create new template"
+3. Name: "🌊 D-POAF Wave Scope"
+4. Description: "Open a new D-POAF® Wave. Use at the START of every project or feature."
+5. In the editor, switch to source mode (… → Insert → View Source) and paste the content below
+6. Save
+
+Now anyone in the Space can create a new Wave Scope page via:
+   + Create → ⚓ Template → 🌊 D-POAF Wave Scope
+-->
+
+<h1>🌊 [WAVE-ID] — [Wave Name]</h1>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p>This page is the <strong>Wave Scope Document</strong> for this Wave. All Prompt Actions and the closing Proof Record reference this page.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>A) Wave Identification</h2>
+<table>
+  <tbody>
+    <tr><th>Wave ID</th><td>WAVE-YYYY-NNN</td></tr>
+    <tr><th>Wave Name</th><td></td></tr>
+    <tr><th>Wave Profile</th><td>Deliver / Decide / Control / Delegate / Operate</td></tr>
+    <tr><th>Wave Captain</th><td><ac:placeholder>Assign a user</ac:placeholder></td></tr>
+    <tr><th>RAGer</th><td><ac:placeholder>Optional</ac:placeholder></td></tr>
+    <tr><th>Wave Surfer</th><td><ac:placeholder>Optional</ac:placeholder></td></tr>
+    <tr><th>Start Date</th><td><time datetime="2026-01-01" /></td></tr>
+    <tr><th>Target End Date</th><td><time datetime="2026-02-01" /></td></tr>
+    <tr><th>Status</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Blue</ac:parameter>
+        <ac:parameter ac:name="title">Active</ac:parameter>
+      </ac:structured-macro>
+    </td></tr>
+  </tbody>
+</table>
+
+<h2>A.bis) Wave Lifecycle Position (NEW — Canonical Spec v1.1)</h2>
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p>Update these fields as the Wave progresses through the lifecycle. The Wave Captain owns this.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<table>
+  <tbody>
+    <tr><th>Current Macro-Phase</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Blue</ac:parameter>
+        <ac:parameter ac:name="title">1. Instruct and Scope</ac:parameter>
+      </ac:structured-macro>
+      <em> — pick one of: 1. Instruct and Scope / 2. Shape and Align / 3. Execute and Evolve / 4. Learn and Adapt</em>
+    </td></tr>
+    <tr><th>Current Sub-Phase</th><td><ac:placeholder>1-Intent / 2-Contextualize / 3-Design PAs / 4-Build / 5-Validate / 6-Deliver / 7-Feedback</ac:placeholder></td></tr>
+  </tbody>
+</table>
+
+<h2>A.ter) Sprint and Repository Association (NEW)</h2>
+<ac:structured-macro ac:name="note">
+  <ac:rich-text-body>
+    <p>Fill these during <strong>Shape and Align</strong> (when the Wave is decomposed and allocated to a sprint) or at the start of <strong>Execute and Evolve</strong> (when commits begin). Leave empty for very small Waves that don't need a sprint.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+<table>
+  <tbody>
+    <tr><th>Sprint ID</th><td><ac:placeholder>e.g., SPRINT-2026-W12, or your team sprint convention</ac:placeholder></td></tr>
+    <tr><th>Sprint URL</th><td><ac:placeholder>Link to Jira / Linear / Azure DevOps sprint board</ac:placeholder></td></tr>
+    <tr><th>Linked Jira Epic</th><td>
+      <ac:structured-macro ac:name="jira">
+        <ac:parameter ac:name="key">PROJ-123</ac:parameter>
+      </ac:structured-macro>
+      <em> — replace PROJ-123 with the actual epic key</em>
+    </td></tr>
+    <tr><th>Repository URL</th><td><ac:placeholder>e.g., https://github.com/myorg/myrepo</ac:placeholder></td></tr>
+    <tr><th>Working Branch</th><td><ac:placeholder>e.g., feature/WAVE-2026-001</ac:placeholder></td></tr>
+    <tr><th>Release Tag (at close)</th><td><ac:placeholder>e.g., v1.4.0 — fill at Wave close</ac:placeholder></td></tr>
+  </tbody>
+</table>
+
+<h2>B) Business Objective and Authorized AI Tools</h2>
+
+<h3>Business Objective</h3>
+<p><ac:placeholder>What business problem does this Wave solve? Why now? Be specific.</ac:placeholder></p>
+
+<h3>AI Tools Authorized (Dynamic Law DL-001)</h3>
+<p>Only the tools listed here may be used during this Wave.</p>
+<ul>
+  <li>Claude claude-sonnet-4-5-20250929</li>
+  <li>GitHub Copilot Business v3.4</li>
+  <li><ac:placeholder>Add more if applicable</ac:placeholder></li>
+</ul>
+
+<h3>Source Documents</h3>
+<p>Which documents will the RAGer use for requirement extraction?</p>
+<table>
+  <thead>
+    <tr><th>Document Name</th><th>Type</th><th>Location / URL</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>C) Scope Definition</h2>
+
+<h3>In Scope</h3>
+<p><ac:placeholder>List what this Wave explicitly covers. Be specific.</ac:placeholder></p>
+
+<h3>Out of Scope</h3>
+<p><ac:placeholder>List what is explicitly excluded. Document scope boundaries to avoid disputes.</ac:placeholder></p>
+
+<h3>Feature Blocks (extracted by RAGer)</h3>
+<table>
+  <thead>
+    <tr><th>FB-ID</th><th>Description</th><th>Priority</th><th>Source Document</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FB-01</td><td></td><td></td><td></td></tr>
+    <tr><td>FB-02</td><td></td><td></td><td></td></tr>
+    <tr><td>FB-03</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>D) Success Criteria — Proofs (defines your validations)</h2>
+
+<h3>PoD — Proof of Delivery</h3>
+<p><strong>What does done look like?</strong> Be specific: what artifacts, test results, or validations must exist?</p>
+<p><ac:placeholder>e.g., All feature blocks implemented, tested, and approved by Wave Captain.</ac:placeholder></p>
+
+<h3>PoV — Proof of Value</h3>
+<p><strong>What impact should be achieved?</strong> What measurable business outcome proves this Wave delivered value?</p>
+<p><ac:placeholder>e.g., Authentication error rate reduced by 30%. Response time below 200ms.</ac:placeholder></p>
+
+<h3>PoR — Proof of Reliability</h3>
+<p><strong>What compliance and security requirements apply?</strong></p>
+<p><ac:placeholder>e.g., OWASP Top 10 checked. GDPR data handling reviewed. No critical vulnerabilities.</ac:placeholder></p>
+
+<h2>E) Constraints, Dependencies and Timeline</h2>
+
+<h3>Constraints</h3>
+<p><ac:placeholder>Technical, budget, team, or timeline constraints.</ac:placeholder></p>
+
+<h3>Dependencies</h3>
+<p><ac:placeholder>What must be in place before or during this Wave? (other Waves, teams, systems)</ac:placeholder></p>
+
+<h3>Key Milestones</h3>
+<table>
+  <thead>
+    <tr><th>Macro-Phase</th><th>Sub-Phase</th><th>Milestone</th><th>Target Date</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1. Instruct and Scope</td><td>1) Intent and Scope</td><td>Wave Scope approved</td><td></td><td>Wave Captain</td></tr>
+    <tr><td>2. Shape and Align</td><td>2) Contextualize and Extract</td><td>RAGer modules delivered + Sprint allocated</td><td></td><td>RAGer</td></tr>
+    <tr><td>2. Shape and Align</td><td>3) Design Prompt Actions</td><td>PromptRegister populated + Branch created</td><td></td><td>Wave Surfer</td></tr>
+    <tr><td>3. Execute and Evolve</td><td>4) Build and Generate</td><td>AI deliverables generated</td><td></td><td>AI + Wave Surfer</td></tr>
+    <tr><td>3. Execute and Evolve</td><td>5) Coordinate and Validate</td><td>Validation complete</td><td></td><td>Wave Captain</td></tr>
+    <tr><td>3. Execute and Evolve</td><td>6) Deliver and Monitor</td><td>Delivery + Release Tag set + monitoring active</td><td></td><td>Peacekeepers</td></tr>
+    <tr><td>4. Learn and Adapt</td><td>7) Feedback and Evolve</td><td>FeedbackRegister updated + Sprint retro done</td><td></td><td>All roles</td></tr>
+  </tbody>
+</table>
+
+<h2>F) Related Prompt Actions</h2>
+<p>All Prompt Actions in this Wave appear below automatically as child pages are created.</p>
+<ac:structured-macro ac:name="children">
+  <ac:parameter ac:name="page"><ri:page ri:content-title="Prompt Actions" /></ac:parameter>
+  <ac:parameter ac:name="sort">creation</ac:parameter>
+  <ac:parameter ac:name="reverse">true</ac:parameter>
+  <ac:parameter ac:name="excerpt">true</ac:parameter>
+</ac:structured-macro>
+
+<h2>G) Approval and Sign-Off</h2>
+<table>
+  <thead>
+    <tr><th>Role</th><th>Name</th><th>Signature / decision</th><th>Date</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wave Captain</td><td></td><td></td><td></td></tr>
+    <tr><td>RAGer</td><td></td><td></td><td></td></tr>
+    <tr><td>Wave Surfer</td><td></td><td></td><td></td></tr>
+    <tr><td>Sponsor / Stakeholder</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<p><em>D-POAF® Framework — Wave Scope v1.1 — d-poaf.org — Licensed under CC BY 4.0</em></p>

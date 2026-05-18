@@ -146,17 +146,89 @@ Governance is not an external overlay — it's a continuous, adaptive, lifecycle
 
 ## 🧰 Implementation Kit
 
-The **D-POAF® Starter Pack v1.0** gives teams everything needed to run their first Wave on day one.
+The **D-POAF® Starter Pack v1.2** gives teams everything needed to run their first Wave on day one. Pick the platform that matches your stack.
+
+### 📚 Core Documentation (PDF)
 
 | Document | Description |
 |----------|-------------|
-| [📘 Practical Guide](kit/DPOAF_Practical_Guide.docx) | 15-page step-by-step implementation guide |
-| [📋 Wave Scope Template](kit/DPOAF_Wave_Scope_Template.docx) | Define objectives, roles, and proof criteria before a Wave |
-| [✅ Proof Record Template](kit/DPOAF_Proof_Record_Template.docx) | Wave close-out document with PoD, PoV, PoR sections |
-| [⚖️ Dynamic Laws Starter](kit/DPOAF_Dynamic_Laws_Starter.docx) | 15 governance rules ready to adopt and adapt |
-| [📝 PromptRegister](kit/DPOAF_PromptRegister.docx) | Track, rate, and reuse every AI prompt in a Wave |
+| [📘 Practical Guide](./kit/DPOAF_Practical_Guide.pdf) | 15-page step-by-step implementation guide |
+| [📋 Wave Scope Template](./kit/DPOAF_Wave_Scope_Template.pdf) | Define objectives, roles, and proof criteria before a Wave |
+| [✅ Proof Record Template](./kit/DPOAF_Proof_Record_Template.pdf) | Wave close-out document with PoD, PoV, PoR sections |
+| [⚖️ Dynamic Laws Starter](./kit/DPOAF_Dynamic_Laws_Starter.pdf) | 15 governance rules ready to adopt and adapt |
+| [📝 PromptRegister](./kit/DPOAF_PromptRegister.xlsx) | Track, rate, and reuse every AI prompt in a Wave |
 
 > The full kit is also published on Zenodo with a permanent DOI: **[10.5281/zenodo.19868884](https://doi.org/10.5281/zenodo.19868884)**
+
+---
+
+## 🚀 Starter Kit — Ready-to-Use Platform Templates
+
+The D-POAF® Starter Kit is available as installable artifacts for **5 platforms**. Mix and match — most teams combine 2-3.
+
+| Platform | What you get | Install time | Get it |
+|---|---|---|---|
+| 📋 **Notion** | All-in-one workspace: 5 reference pages + 4 databases + sample lifecycle + traceability chain | ⚡ 1 min (1-click duplicate) | [Open template →](https://d-poaf-framework.notion.site/D-POAF-AI-Governance-Workspace-3634353affa781e097c1d2aeeecff325?source=copy_link) · [Source](./kit/notion-templates/) |
+| 🐘 **Confluence Cloud** | Governance Space: 5 pages + 3 page templates + sample lifecycle | 🛠 5 min (REST API script) | [Browse `kit/confluence-templates/` →](./kit/confluence-templates/) |
+| 🛠 **Jira Cloud** | Scrum project: Wave Epic + 5 PAs + 2 Proofs + 15 DLs + 9 JQL filters + control room dashboard | 🛠 15 min (REST API script) | [Browse `kit/jira-templates/` →](./kit/jira-templates/) |
+| 🐙 **GitHub Templates** | Template Repository — Issue forms + PR template active in 60 seconds | ⚡ 60 sec | [Use this template →](https://github.com/INOVIONIX/dpoaf-starter-repo) · [Source](./kit/github-templates/) |
+| 📊 **Excel** | Fillable PromptRegister workbook with validation, conditional formatting, Traceability Thread fields | ⚡ Instant (download + open) | [Download →](./kit/DPOAF_PromptRegister.xlsx) |
+
+### Quick install — pick your platform
+
+#### 📋 Notion (1 click)
+```bash
+# No CLI needed — open the template URL and click "Duplicate"
+open https://d-poaf-framework.notion.site/D-POAF-AI-Governance-Workspace-3634353affa781e097c1d2aeeecff325?source=copy_link
+```
+
+#### 🐘 Confluence Cloud (Python script)
+
+```bash
+open https://dpoaf.atlassian.net/wiki/spaces/DPOAFGOV/overview
+```
+
+```powershell
+# Prerequisites: Confluence Cloud account + API token from id.atlassian.com
+$env:CONFLUENCE_URL = "https://yoursite.atlassian.net"
+$env:CONFLUENCE_EMAIL = "your.email@example.com"
+$env:CONFLUENCE_TOKEN = "ATATT3xFfGF0..."
+$env:CONFLUENCE_SPACE_KEY = "DPOAFGOV"
+python kit/confluence-templates/build_dpoaf_confluence.py
+```
+
+#### 🛠 Jira Cloud (Python script)
+```powershell
+# Prerequisites: Jira Cloud project (key DPOAF) + API token
+$env:JIRA_URL = "https://yoursite.atlassian.net"
+$env:JIRA_EMAIL = "your.email@example.com"
+$env:JIRA_TOKEN = "ATATT3xFfGF0..."
+$env:JIRA_PROJECT_KEY = "DPOAF"
+python kit/jira-templates/install_dpoaf_jira.py
+```
+
+#### 🐙 GitHub Templates (existing repo)
+```bash
+npx degit INOVIONIX/dpoaf-starter-repo/.github .github
+git add .github && git commit -m "feat: install D-POAF® governance templates"
+```
+
+---
+
+### 🎯 Recommended combo by team type
+
+| Team profile | Recommended stack |
+|---|---|
+| Small team / solo dev | 📋 Notion (all-in-one, fastest setup) |
+| AI engineering team with Atlassian | 🐘 Confluence (docs) + 🛠 Jira (execution) + 🐙 GitHub (code) |
+| Consulting firm onboarding clients | 📋 Notion (per-client) + 🐙 GitHub (shared templates) |
+| Enterprise with strict governance | 🐘 Confluence + 🛠 Jira + 📊 Excel PromptRegister + 🐙 GitHub |
+
+---
+
+### 🔗 The traceability chain (works across all platforms)
+
+D-POAF's killer feature: walk from any code commit back to business intent in 4 clicks.
 
 ---
 

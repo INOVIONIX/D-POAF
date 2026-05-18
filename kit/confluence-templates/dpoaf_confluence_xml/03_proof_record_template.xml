@@ -1,0 +1,136 @@
+<!--
+D-POAF® Proof Record — Confluence Storage Format Template
+Version: 1.0 — 2026
+
+Use this template to close a Wave (Dynamic Law DL-012).
+Reference the Wave Scope page and all PA pages of the Wave.
+-->
+
+<h1>✅ [Wave-ID] — Proof Record</h1>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p>Closes the Wave referenced below. Dynamic Law DL-012 — <strong>Proof Record is Mandatory for Wave Close.</strong> No Wave may be marked as closed without a completed and signed Proof Record.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>A) Wave Information</h2>
+<table>
+  <tbody>
+    <tr><th>Wave reference</th><td><ac:placeholder>Link to Wave Scope page</ac:placeholder></td></tr>
+    <tr><th>Wave Name</th><td></td></tr>
+    <tr><th>Wave Captain</th><td><ac:placeholder>Assign user</ac:placeholder></td></tr>
+    <tr><th>Date closed</th><td><time datetime="2026-02-01" /></td></tr>
+  </tbody>
+</table>
+
+<h2>PoD — Proof of Delivery</h2>
+
+<table>
+  <tbody>
+    <tr><th>What was committed in the Wave Scope?</th><td><ac:placeholder>List the deliverables agreed at Wave start</ac:placeholder></td></tr>
+    <tr><th>What was actually delivered?</th><td><ac:placeholder>List all delivered artifacts, code, docs, features. Include commit hashes and file paths.</ac:placeholder></td></tr>
+    <tr><th>Validation Method</th><td><ac:placeholder>How was delivery validated? (code review, UAT, demo, automated tests)</ac:placeholder></td></tr>
+    <tr><th>Validated By</th><td><ac:placeholder>Name + role of person who confirmed delivery</ac:placeholder></td></tr>
+    <tr><th>Status</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Green</ac:parameter>
+        <ac:parameter ac:name="title">✓ Approved</ac:parameter>
+      </ac:structured-macro>
+    </td></tr>
+  </tbody>
+</table>
+
+<h3>Evidence Attached (PoD)</h3>
+<table>
+  <thead>
+    <tr><th>Evidence ID</th><th>Type</th><th>Description</th><th>Location / Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-001</td><td></td><td></td><td></td></tr>
+    <tr><td>E-002</td><td></td><td></td><td></td></tr>
+    <tr><td>E-003</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>PoV — Proof of Value</h2>
+
+<table>
+  <tbody>
+    <tr><th>Expected Value (from Wave Scope)</th><td><ac:placeholder>What impact was promised? (metrics, KPIs, outcomes)</ac:placeholder></td></tr>
+    <tr><th>Achieved Value</th><td><ac:placeholder>What actually happened? Include numbers.</ac:placeholder></td></tr>
+    <tr><th>Measurement Method</th><td><ac:placeholder>How was impact measured? When?</ac:placeholder></td></tr>
+    <tr><th>Status</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Green</ac:parameter>
+        <ac:parameter ac:name="title">✓ Approved</ac:parameter>
+      </ac:structured-macro>
+    </td></tr>
+  </tbody>
+</table>
+
+<h3>Evidence Attached (PoV)</h3>
+<table>
+  <thead>
+    <tr><th>Evidence ID</th><th>Type</th><th>Description</th><th>Location / Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-001</td><td></td><td></td><td></td></tr>
+    <tr><td>E-002</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>PoR — Proof of Reliability</h2>
+
+<table>
+  <tbody>
+    <tr><th>Security Checks Performed</th><td><ac:placeholder>e.g., OWASP review, pen test, dependency scan</ac:placeholder></td></tr>
+    <tr><th>Compliance Requirements Met</th><td><ac:placeholder>e.g., GDPR, SOC 2, EU AI Act, ISO 27001</ac:placeholder></td></tr>
+    <tr><th>Anomalies Detected During Monitoring</th><td><ac:placeholder>Any issues flagged by Peacekeepers post-delivery?</ac:placeholder></td></tr>
+    <tr><th>Resolution Status</th><td><ac:placeholder>How were anomalies resolved?</ac:placeholder></td></tr>
+    <tr><th>Status</th><td>
+      <ac:structured-macro ac:name="status">
+        <ac:parameter ac:name="colour">Grey</ac:parameter>
+        <ac:parameter ac:name="title">N/A — Justified</ac:parameter>
+      </ac:structured-macro>
+    </td></tr>
+  </tbody>
+</table>
+
+<h3>Evidence Attached (PoR)</h3>
+<table>
+  <thead>
+    <tr><th>Evidence ID</th><th>Type</th><th>Description</th><th>Location / Link</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-001</td><td></td><td></td><td></td></tr>
+    <tr><td>E-002</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>
+
+<h2>E) Lessons Learned &amp; FeedbackRegister</h2>
+
+<h3>What worked well in this Wave?</h3>
+<p><ac:placeholder>Capture what to replicate in future Waves</ac:placeholder></p>
+
+<h3>What should be improved?</h3>
+<p><ac:placeholder>Process issues, prompt quality problems, tooling gaps</ac:placeholder></p>
+
+<h3>PromptRegister updates needed</h3>
+<p><ac:placeholder>Which prompts should be archived, refined, or flagged as reusable?</ac:placeholder></p>
+
+<h2>F) Approval &amp; Sign-Off</h2>
+<table>
+  <thead>
+    <tr><th>Role</th><th>Name</th><th>Decision</th><th>Date</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wave Captain</td><td></td><td>☐ Closed   ☐ Rejected   ☐ Partial</td><td></td></tr>
+    <tr><td>Sponsor / Stakeholder</td><td></td><td>☐ Accepted   ☐ Revision needed</td><td></td></tr>
+    <tr><td>Peacekeepers</td><td></td><td>☐ Cleared   ☐ Issues remain</td><td></td></tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<p><em>D-POAF® Framework — d-poaf.org — Licensed under CC BY 4.0</em></p>

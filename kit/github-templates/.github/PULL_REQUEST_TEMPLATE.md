@@ -17,15 +17,15 @@ Closes #
 ### AI involvement in this PR
 
 - [ ] No AI-generated content (skip the rest of this section)
-- [ ] AI was used, **commit messages carry `[AI:<model>:<PA-ID>]` tag** (per DL-005)
+- [ ] AI was used — **commit messages carry `[AI:<model>:<PA-ID>]` tag** (per DL-005)
 - [ ] All AI Prompt Actions are logged in the PromptRegister BEFORE invocation (per DL-006)
 - [ ] All AI-generated outputs have been reviewed by a second human role (per DL-002 + DL-011)
 
 ### Prompt Actions in this PR
 
 <!-- List the PA-IDs that produced code/docs/tests in this PR -->
-- PA-XXX: <short title>: #<PA issue number>
-- PA-XXX: <short title>: #<PA issue number>
+- PA-XXX — <short title> — #<PA issue number>
+- PA-XXX — <short title> — #<PA issue number>
 
 ### Model + configuration
 
@@ -43,7 +43,7 @@ Closes #
 
 ### Approved AI tools
 
-- [ ] All AI tools used appear in the Wave Scope §B (DL-001: Approved AI Tools)
+- [ ] All AI tools used appear in the Wave Scope §B (DL-001 — Approved AI Tools)
 - [ ] No undisclosed AI tools were used
 
 ## Reviewer notes

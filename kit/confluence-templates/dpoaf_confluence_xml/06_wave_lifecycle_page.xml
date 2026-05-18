@@ -1,0 +1,142 @@
+<!--
+D-POAF® Wave Lifecycle — Confluence Storage Format Page
+Version: 1.1 — 2026
+
+One-shot page. Lives at the root of your D-POAF Space.
+Explains the 4 macro-phases (added in Canonical Spec v1.1).
+
+HOW TO USE:
+1. In your D-POAF Space, create a Blank page titled "Wave Lifecycle"
+2. In the editor, switch to source mode (… → View Source → Edit)
+3. Paste this content
+4. Save
+-->
+
+<h1>📊 Wave Lifecycle — The 4 Macro-Phases</h1>
+
+<ac:structured-macro ac:name="info">
+  <ac:rich-text-body>
+    <p>Every Wave traverses 4 macro-phases. This page is the visual control room: each Wave's current phase is tracked in the Wave Scope page, and the embedded views below show what's in flight.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>The 4 macro-phases (Canonical Specification v1.1)</h2>
+
+<table>
+  <thead>
+    <tr><th>#</th><th>Macro-Phase</th><th>Sub-phases</th><th>What happens</th><th>Sprint &amp; Repo activity</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <ac:structured-macro ac:name="status">
+          <ac:parameter ac:name="colour">Blue</ac:parameter>
+          <ac:parameter ac:name="title">1</ac:parameter>
+        </ac:structured-macro>
+      </td>
+      <td><strong>Instruct &amp; Scope</strong></td>
+      <td>1 — Intent &amp; Scope</td>
+      <td>Translate intent into a scoped instruction. Wave Scope opens.</td>
+      <td><em>None yet.</em></td>
+    </tr>
+    <tr>
+      <td>
+        <ac:structured-macro ac:name="status">
+          <ac:parameter ac:name="colour">Yellow</ac:parameter>
+          <ac:parameter ac:name="title">2</ac:parameter>
+        </ac:structured-macro>
+      </td>
+      <td><strong>Shape &amp; Align</strong></td>
+      <td>2 — Contextualize &amp; Extract<br/>3 — Design Prompt Actions</td>
+      <td>RAGer prepares context. Wave Surfer designs Prompt Actions.</td>
+      <td><strong>Allocate to a sprint here.</strong> Create the working branch in the repo. Link the Jira Epic.</td>
+    </tr>
+    <tr>
+      <td>
+        <ac:structured-macro ac:name="status">
+          <ac:parameter ac:name="colour">Purple</ac:parameter>
+          <ac:parameter ac:name="title">3</ac:parameter>
+        </ac:structured-macro>
+      </td>
+      <td><strong>Execute &amp; Evolve</strong></td>
+      <td>4 — Build &amp; Generate<br/>5 — Coordinate &amp; Validate<br/>6 — Deliver &amp; Monitor</td>
+      <td>AI invoked; outputs validated; reliability monitored.</td>
+      <td><strong>Sprint runs.</strong> Commits with [AI:&lt;model&gt;:PA-ID] tag. PRs reviewed. Release tag at the end.</td>
+    </tr>
+    <tr>
+      <td>
+        <ac:structured-macro ac:name="status">
+          <ac:parameter ac:name="colour">Green</ac:parameter>
+          <ac:parameter ac:name="title">4</ac:parameter>
+        </ac:structured-macro>
+      </td>
+      <td><strong>Learn &amp; Adapt</strong></td>
+      <td>7 — Feedback &amp; Evolve</td>
+      <td>Outcomes synthesized. Intent, governance, standards adapted for the next Wave.</td>
+      <td><em>Sprint retrospective. PromptRegister updates. Dynamic Laws amendments if needed.</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<ac:structured-macro ac:name="note">
+  <ac:rich-text-body>
+    <p><strong>Sprint &amp; Repository association.</strong> The Wave Scope page has dedicated fields for Sprint ID · Sprint URL · Linked Jira Epic · Repository · Branch · Release Tag. These are filled during <strong>Shape &amp; Align</strong> (when the Wave is decomposed) and updated through <strong>Execute &amp; Evolve</strong> (as work progresses). The fields are always present on the Wave Scope but can be left empty for very small Waves.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>The visual: from artifact to business intent</h2>
+
+<p>The macro-phases form a continuous loop:</p>
+
+<ac:structured-macro ac:name="code">
+  <ac:parameter ac:name="language">text</ac:parameter>
+  <ac:plain-text-body><![CDATA[
+   ┌─── 1. Instruct & Scope ────┐
+   │                             │
+   │   ▼                         │
+   │  2. Shape & Align ──┐       │
+   │   │                  │      │
+   │   ▼                  │      │
+   │  3. Execute & Evolve │      │
+   │   │                  │      │
+   │   ▼                  │      │
+   │  4. Learn & Adapt ───┘      │
+   │   │                         │
+   └───┘  back to next Wave
+]]></ac:plain-text-body>
+</ac:structured-macro>
+
+<h2>Active Waves by Macro-Phase</h2>
+
+<p>Live view of where every active Wave sits in the lifecycle. Updated automatically as Wave Captains move their Wave forward.</p>
+
+<ac:structured-macro ac:name="children">
+  <ac:parameter ac:name="page"><ri:page ri:content-title="Waves" /></ac:parameter>
+  <ac:parameter ac:name="sort">title</ac:parameter>
+  <ac:parameter ac:name="excerpt">true</ac:parameter>
+</ac:structured-macro>
+
+<ac:structured-macro ac:name="tip">
+  <ac:rich-text-body>
+    <p>To filter Waves by macro-phase, use the page properties report — see <ac:link><ri:page ri:content-title="Practical Guide" /></ac:link> for setup.</p>
+  </ac:rich-text-body>
+</ac:structured-macro>
+
+<h2>Why the 4 macro-phases matter</h2>
+
+<p>The 7 sub-phases give granularity for daily work. The 4 macro-phases give a <strong>shared language</strong> for cross-team and executive conversations:</p>
+
+<ul>
+  <li><strong>For the Wave Captain</strong> — "We're in Execute &amp; Evolve" is enough context to communicate status. No need to dive into the sub-phase.</li>
+  <li><strong>For sponsors and stakeholders</strong> — The 4 phases mirror common product lifecycle vocabulary (discover → design → build → learn). Easy to align with executive language.</li>
+  <li><strong>For governance reviews</strong> — Auditors can see at a glance whether a Wave is still in flight (phases 1-3) or in adaptation (phase 4). Compliance triggers differ per phase.</li>
+  <li><strong>For continuous improvement</strong> — Phase 4 (Learn &amp; Adapt) is what makes D-POAF® a <em>living</em> framework rather than a one-shot pipeline. It feeds intent and governance back into the next Wave.</li>
+</ul>
+
+<h2>Source</h2>
+
+<p>The 4 macro-phases are normatively defined in the <a href="https://d-poaf.org/wp-content/uploads/2026/01/Canonical_D_POAF.pdf">D-POAF® Canonical Specification v1.1</a>, §4.1 (Lifecycle Macro-Phases — Wave Lifecycle Core).</p>
+
+<hr/>
+
+<p><em>D-POAF® Framework — Wave Lifecycle v1.1 — d-poaf.org — Licensed under CC BY 4.0</em></p>

@@ -22,10 +22,10 @@ Five minutes from `git clone` to a governed AI-enabled SDLC.
 
 | GitHub artifact | Starter Kit document | Role |
 |---|---|---|
-| **Wave Scope issue** | `../DPOAF_Wave_Scope_Template.pdf` | Opens a Wave with full identification, scope, AI tools, and success criteria. |
-| **Prompt Action issue** | `../DPOAF_PromptRegister.pdf` | One issue per AI invocation. Captures model + config + context for **Traceability Thread**. |
-| **Proof Record issue** | `../DPOAF_Proof_Record_Template.pdf` | Closes a Wave with PoD/PoV/PoR evidence and sign-offs. |
-| **PR template** | `../DPOAF_Dynamic_Laws_Starter.pdf` | Runtime enforcement of Dynamic Laws DL-001, DL-002, DL-005, DL-006, DL-011. |
+| **Wave Scope issue** | `DPOAF_Wave_Scope_Template.pdf` | Opens a Wave with full identification, scope, AI tools, and success criteria. |
+| **Prompt Action issue** | `DPOAF_PromptRegister.pdf` | One issue per AI invocation. Captures model + config + context for **Traceability Thread**. |
+| **Proof Record issue** | `DPOAF_Proof_Record_Template.pdf` | Closes a Wave with PoD/PoV/PoR evidence and sign-offs. |
+| **PR template** | `DPOAF_Dynamic_Laws_Starter.pdf` | Runtime enforcement of Dynamic Laws DL-001, DL-002, DL-005, DL-006, DL-011. |
 
 ---
 
@@ -53,7 +53,7 @@ That's it. Next time someone opens a new issue on your repo, they'll see the 3 D
 | **DL-006** PromptRegister Mandatory | Every Prompt Action is logged BEFORE the AI is invoked. |
 | **DL-011** No Self-Validation | A role may not validate its own work. |
 
-See [`DPOAF_Dynamic_Laws_Starter.pdf`](../DPOAF_Dynamic_Laws_Starter.pdf) for the full 15-rule starter pack.
+See [`DPOAF_Dynamic_Laws_Starter.pdf`](https://d-poaf.org/resources/) for the full 15-rule starter pack.
 
 ---
 
@@ -96,20 +96,20 @@ Filter by label `dpoaf:wave` to see only Wave Scope issues. Each Wave Scope issu
 
 ## Workflow in practice
 
-1. **Open a Wave:** Click `New Issue` → `🌊 D-POAF Wave Scope`. Fill in identification, scope, AI tools, success criteria. The issue number becomes your `Wave ID` if you don't use a custom one.
-2. **Log every Prompt Action:** Before invoking the AI, click `New Issue` → `🤖 D-POAF Prompt Action (PA)`. Reference the Wave issue. After generation, update the body with output summary + commit hash.
-3. **Commit with the tag:** `git commit -m "feat(rank): add scoring [AI:claude-sonnet-4-5:PA-001]"`
-4. **PR review:** The PR template auto-loads its checklist. Reviewer confirms all D-POAF compliance boxes before merge.
-5. **Close the Wave:** Click `New Issue` → `✅ D-POAF Proof Record`. Reference the Wave issue. Fill PoD/PoV/PoR with evidence. Get sign-offs. Close both this issue and the Wave Scope issue.
+1. **Open a Wave** — Click `New Issue` → `🌊 D-POAF Wave Scope`. Fill in identification, scope, AI tools, success criteria. The issue number becomes your `Wave ID` if you don't use a custom one.
+2. **Log every Prompt Action** — Before invoking the AI, click `New Issue` → `🤖 D-POAF Prompt Action (PA)`. Reference the Wave issue. After generation, update the body with output summary + commit hash.
+3. **Commit with the tag** — `git commit -m "feat(rank): add scoring [AI:claude-sonnet-4-5:PA-001]"`
+4. **PR review** — The PR template auto-loads its checklist. Reviewer confirms all D-POAF compliance boxes before merge.
+5. **Close the Wave** — Click `New Issue` → `✅ D-POAF Proof Record`. Reference the Wave issue. Fill PoD/PoV/PoR with evidence. Get sign-offs. Close both this issue and the Wave Scope issue.
 
 ---
 
 ## License
 
-The templates are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) same as the D-POAF Framework.
+The templates are released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — same as the D-POAF Framework.
 
 You may use, modify, and redistribute them in your own repos. Attribution to the D-POAF® Framework is appreciated.
 
 ---
 
-© 2025–2026 Azzeddine IHSINE & Sara IHSINE - [d-poaf.org](https://d-poaf.org)
+© 2025–2026 Azzeddine IHSINE & Sara IHSINE — [d-poaf.org](https://d-poaf.org)

@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "framework": "D-POAF",
+  "framework_version": "v1.1",
+  "license": "CC BY 4.0",
+  "labels": {
+    "global": [
+      {
+        "label": "d-poaf",
+        "description": "Global filter — any D-POAF issue carries this label",
+        "applies_to": ["wave", "prompt-action", "proof-record"]
+      }
+    ],
+    "issue_category": [
+      {
+        "label": "wave",
+        "description": "Identifies the issue as a D-POAF Wave (Epic)",
+        "applies_to": ["wave"]
+      },
+      {
+        "label": "prompt-action",
+        "description": "Identifies the issue as a Prompt Action (Task)",
+        "applies_to": ["prompt-action"]
+      },
+      {
+        "label": "proof-record",
+        "description": "Identifies the issue as a Proof Record (Sub-task)",
+        "applies_to": ["proof-record"]
+      }
+    ],
+    "wave_profile": [
+      {
+        "label": "deliver-wave",
+        "description": "Profile: short-term, output-focused Wave"
+      },
+      {
+        "label": "decide-wave",
+        "description": "Profile: decision-making Wave (architecture, scoping)"
+      },
+      {
+        "label": "control-wave",
+        "description": "Profile: governance/compliance Wave"
+      },
+      {
+        "label": "delegate-wave",
+        "description": "Profile: handoff to another team/Wave"
+      },
+      {
+        "label": "operate-wave",
+        "description": "Profile: ongoing operational responsibility"
+      }
+    ],
+    "macro_phase": [
+      {
+        "label": "macro-1",
+        "description": "Wave is in Macro-Phase 1 — Instruct & Scope",
+        "color_suggestion": "blue"
+      },
+      {
+        "label": "macro-2",
+        "description": "Wave is in Macro-Phase 2 — Shape & Align",
+        "color_suggestion": "yellow"
+      },
+      {
+        "label": "macro-3",
+        "description": "Wave is in Macro-Phase 3 — Execute & Evolve",
+        "color_suggestion": "purple"
+      },
+      {
+        "label": "macro-4",
+        "description": "Wave is in Macro-Phase 4 — Learn & Adapt",
+        "color_suggestion": "green"
+      }
+    ],
+    "sub_phase": [
+      { "label": "phase-1", "description": "Sub-Phase 1 — Intent & Scope" },
+      { "label": "phase-2", "description": "Sub-Phase 2 — Contextualize & Extract" },
+      { "label": "phase-3", "description": "Sub-Phase 3 — Design Prompt Actions" },
+      { "label": "phase-4", "description": "Sub-Phase 4 — Build & Generate" },
+      { "label": "phase-5", "description": "Sub-Phase 5 — Coordinate & Validate" },
+      { "label": "phase-6", "description": "Sub-Phase 6 — Deliver & Monitor" },
+      { "label": "phase-7", "description": "Sub-Phase 7 — Feedback & Evolve" }
+    ],
+    "role": [
+      { "label": "wave-captain", "description": "Issue owned/managed by Wave Captain" },
+      { "label": "wave-surfer", "description": "Issue executed by Wave Surfer" },
+      { "label": "rager", "description": "Issue involves RAGer (context preparation)" },
+      { "label": "ai", "description": "Issue involves AI generation" },
+      { "label": "peacekeeper", "description": "Issue involves Peacekeeper (governance)" }
+    ],
+    "quality": [
+      { "label": "quality-1", "description": "PA Quality Rating: 1 (poor — must refine)" },
+      { "label": "quality-2", "description": "PA Quality Rating: 2 (below par — must refine)" },
+      { "label": "quality-3", "description": "PA Quality Rating: 3 (acceptable)" },
+      { "label": "quality-4", "description": "PA Quality Rating: 4 (good — reusable candidate)" },
+      { "label": "quality-5", "description": "PA Quality Rating: 5 (excellent — reusable)" }
+    ],
+    "compliance": [
+      {
+        "label": "traceability-thread-complete",
+        "description": "PA has Model + Configuration + Context filled (DL-006 compliant)"
+      },
+      {
+        "label": "reusable-prompt",
+        "description": "PA approved as reusable (Quality >=4 + Wave Captain approval, DL-008)"
+      },
+      {
+        "label": "blind-acceptance-violation",
+        "description": "PA committed without human review (DL-002 violation — flag for cleanup)"
+      }
+    ],
+    "proof_status": [
+      { "label": "pod-approved", "description": "PoD Approved" },
+      { "label": "pod-partial", "description": "PoD Partial" },
+      { "label": "pod-not-met", "description": "PoD Not Met" },
+      { "label": "pov-approved", "description": "PoV Approved" },
+      { "label": "pov-partial", "description": "PoV Partial" },
+      { "label": "pov-not-met", "description": "PoV Not Met" },
+      { "label": "por-approved", "description": "PoR Approved" },
+      { "label": "por-na", "description": "PoR Not Applicable" }
+    ],
+    "sign_offs": [
+      { "label": "wave-captain-signed", "description": "Wave Captain sign-off recorded" },
+      { "label": "sponsor-signed", "description": "Sponsor sign-off recorded" },
+      { "label": "external-auditor-signed", "description": "External auditor sign-off recorded" },
+      { "label": "peacekeepers-signed", "description": "Peacekeepers sign-off recorded" }
+    ],
+    "status": [
+      { "label": "active", "description": "Wave/PA is currently active" },
+      { "label": "refined", "description": "Wave/PA has been refined (post-feedback)" },
+      { "label": "archived", "description": "Issue archived (historical only)" },
+      { "label": "flagged", "description": "Issue flagged for review (governance concern)" }
+    ]
+  },
+  "notes": [
+    "Labels are case-sensitive in Jira. Always use lowercase with hyphens.",
+    "When using custom fields (admin upgrade), keep some labels for cross-cutting queries.",
+    "Recommended: macro-X and phase-X are kept as labels even after custom fields upgrade.",
+    "compliance labels (traceability-thread-complete, etc.) are CRITICAL for audit JQL."
+  ]
+}
