@@ -36,7 +36,7 @@ D-POAF is built on the principles of decentralized governance and collective int
 ## 🚀 Getting Started
 
 ### 1. Read the Framework First
-Before contributing, read at least the [Practical Guide](kit/DPOAF_Practical_Guide.docx) and the [Canonical Specification](https://doi.org/10.5281/zenodo.18174958) to understand D-POAF's concepts and vocabulary.
+Before contributing, read at least the [Practical Guide](kit/DPOAF_Practical_Guide.pdf) and the [Canonical Specification](https://doi.org/10.5281/zenodo.18174958) to understand D-POAF's concepts and vocabulary.
 
 ### 2. Join the Community
 - **Discord**: [discord.gg/DMZMeHxzNd](https://discord.gg/DMZMeHxzNd) — introduce yourself in `#introduce-yourself`
