@@ -277,10 +277,10 @@ D-POAF applies wherever AI influences or contributes to the software engineering
 
 | Document | DOI | Status |
 |----------|-----|--------|
-| Canonical Specification v1.0 | [10.5281/zenodo.18174958](https://doi.org/10.5281/zenodo.18174958) | Frozen Canonical |
-| Terminology Reference v1.0 | [10.5281/zenodo.18175200](https://doi.org/10.5281/zenodo.18175200) | Active |
-| Practical Guide v1.0 | [10.5281/zenodo.17927536](https://doi.org/10.5281/zenodo.17927536) | Active |
-| Implementation Kit v1.0 | [10.5281/zenodo.19868884](https://doi.org/10.5281/zenodo.19868884) | Active |
+| Canonical Specification v1.1 | [10.5281/zenodo.18174958](https://doi.org/10.5281/zenodo.21922885) | Frozen Canonical |
+| Terminology Reference v1.1 | [10.5281/zenodo.18175200](https://doi.org/10.5281/zenodo.21922945) | Active |
+| Practical Guide v1.1 | [10.5281/zenodo.17927536](https://doi.org/10.5281/zenodo.21939986) | Active |
+| Implementation Kit v1.0 | [10.5281/zenodo.19868884](https://doi.org/10.5281/zenodo.21939986) | Active |
 
 **Framework Book**
 - **ISBN:** 979-10-415-8736-0
